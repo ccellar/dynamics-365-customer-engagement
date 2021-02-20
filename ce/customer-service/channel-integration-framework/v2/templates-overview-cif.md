@@ -1,13 +1,12 @@
 ---
 title: "Overview of templates in the Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Learn about templates in Dynamics 365 Channel Integration Framework version 2.0 "
-author: kabala123
-ms.author: kabala
+description: "Learn about templates in Dynamics 365 Channel Integration Framework version 2.0"
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -31,3 +30,6 @@ To choose the applications you want to open for every session, according to your
 ## See also
 
 [Associate templates with scenarios](associate-templates-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

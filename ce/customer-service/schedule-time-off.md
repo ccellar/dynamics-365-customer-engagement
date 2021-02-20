@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -66,3 +65,6 @@ More information on scheduling a resource for business closure or holiday: *Set 
   
 ### See also  
  [Set work hours for a resource](../customer-service/set-work-hours-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

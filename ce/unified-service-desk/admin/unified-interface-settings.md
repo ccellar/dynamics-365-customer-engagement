@@ -1,13 +1,12 @@
 ---
 title: "Unified Interface Settings | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
-ms.date: 06/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 06/01/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -130,3 +129,6 @@ Add users (agents) to a **Configuration**, and no Unified Interface Settings rec
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
  
  [Walkthrough 7: Configure agent scripting in your agent application](../../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

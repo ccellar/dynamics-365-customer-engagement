@@ -50,9 +50,12 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Demonstrate
 
-1. The `query` method retrieves a role from Common Data Service.
+1. The `query` method retrieves a role from Dataverse.
 2. The `Associate` message assigns the role to a team.
 
 ### Clean up
 
 Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

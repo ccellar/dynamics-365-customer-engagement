@@ -1,17 +1,14 @@
 ---
-title: "Landing page configuration (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records in Dynamics 365 Marketing"
+title: "Landing page configuration (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: ba1de806-8f7a-4283-aee8-15f2fd8cc39d
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -61,7 +58,7 @@ For more information about how to create and edit matching strategies, see [Set 
 
 ## Set portal defaults
 
-Settings on the **Portal defaults** tab control how your marketing pages are hosted in Dynamics 365 Portals (if you are using a portal to host your landing pages). The following settings are available:
+Settings on the **Portal defaults** tab control how your marketing pages are hosted in Power Apps portals (if you are using a portal to host your landing pages). The following settings are available:
 
 - **Website**. Identifies the portal website where all new marketing pages will be published while the current configuration record is active. This defaults to the event website that was provisioned for you when you signed up for Dynamics 365 Marketing, but you can choose another if you have one. If you change this, pages that you've already published will remain on their current portal, but new pages will go to the new portal.
 - **Page language**. Sets the default language to use in the portal.
@@ -72,5 +69,8 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 [Open the advanced settings](open-advanced-settings.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Set matching strategies](mkt-settings-matching.md)  
-[Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)  
+[Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)  
 [Create interactive features with or without portals](portals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,20 +1,21 @@
 # [Overview](overview.md)
 
-# Administrator Guide 
+# Administrator basics 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
-## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
-## [Set-up mobile offline synchronization (Preview)](preview-setup-mobile-offline.md)
+
+# Set-up mobile offline
+## [Configure mobile offline](setup-mobile-offline.md)
 ## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
-# [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
-# [Migrate to Power Apps mobile](migration.md)
+# Install the mobile app
+## [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md)
+## [Migrate to the Power Apps mobile app](migration.md)
 
 # User Guides
-## [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)
-## [Basic navigation in Dynamics 365 for phones and tablets (Preview)](user-guide-mobile-app.md)
-## [Send email from the mobile app](send-email.md)
+## [Basic navigation in Dynamics 365 for phones and tablets](user-guide-mobile-app.md)
+## [Basic navigation for Dynamics 365 (Preview) app for Windows](windows-mobile-app.md)
 ## [Work offline on your mobile device](work-in-offline-mode.md)
 
 # [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
@@ -23,12 +24,7 @@
 ## [Overview](../mobile-app/v8/about-this-content.md)
 
 ## Administrator Guide 
-### [Configure and use mobile offline synchronization](../mobile-app/v8/configure/configure-mobile-offline-synchronization.md)
-#### [Enable mobile offline synchronization](../mobile-app/v8/configure/enable-mobile-offline-synchronization.md)
-#### [Enable entities for mobile offline synchronization](../mobile-app/v8/configure/enable-entities-mobile-offline-synchronization.md)
-#### [Create a mobile offline profile](../mobile-app/v8/configure/create-mobile-offline-profile.md)
-#### [Add users to a mobile offline profile](../mobile-app/v8/configure/add-users-mobile-offline-profile.md)
-#### [Publish a mobile offline profile](../mobile-app/v8/configure/publish-mobile-offline-profile.md)
+### [Configure mobile offline (using legacy admin interface)](setup-mobile-offline-for-admin.md)
 
 ### Setup and manage phones and tablets
 #### [Set up](v8/set-up-manage/set-up.md)

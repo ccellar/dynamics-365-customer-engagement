@@ -1,13 +1,12 @@
 ---
 title: "updateConversation (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 02/13/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -48,3 +47,6 @@ Microsoft.CIFramework.updateConversation(conversationId, jsonData).then(
       }
   );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Installation and setup - Connected Customer Service for IoT Hub
@@ -21,7 +16,7 @@ This guide provides the steps required for getting up and running with Connected
 ## Prerequisites  
  Before you install Connected Customer Service, make sure you have the following:  
   
-- Dynamics 365 system administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
+- Dynamics 365 system administrator credentials. For users with Microsoft 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
    
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Customer Service – Dispatcher (to access Dynamics 365).  
   
@@ -296,3 +291,6 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 Queries that Stream Analytics will use are stored to Azure Blob storage. 
 
 [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Architecture of Connected Customer Service with IoTHub
@@ -60,3 +55,6 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 
 ## Component data flow diagram
 A data flow between the Azure IoT Hub and Connected Customer Services components is detailed in this [downloadable diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of Connected Customer Service for Dynamics 365.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

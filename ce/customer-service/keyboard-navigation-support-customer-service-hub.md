@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 04/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -49,3 +48,6 @@ The Customer Service Hub app is based in Unified Interface. To see the list of k
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

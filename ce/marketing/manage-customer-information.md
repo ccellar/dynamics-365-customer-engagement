@@ -1,18 +1,14 @@
 ---
 title: "Work with contact, account, and lead records (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to find, create and use contact, account, and lead records in Dynamics 365 Marketing"
-keywords: contact; account; lead
+description: "How to find, create and use contact, account, and lead records in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 16024056-9750-4b6f-854a-da454e2c3a3f
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -84,3 +80,6 @@ More information: [The lead lifecycle](lead-lifecycle.md)
 ## Gain insights into how contacts, accounts, and leads are interacting with your marketing initiatives
 
 Once you have Dynamics 365 Marketing installed, your instance will be begin to collect information about how each of these entities interacts with your marketing activities. The system provides a wealth of information, including analytics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

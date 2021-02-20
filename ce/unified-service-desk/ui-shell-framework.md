@@ -1,15 +1,14 @@
 ---
 title: "UI Shell Framework in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the UI shell framework that enables developers to build a desktop for hosting integrated applications."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -33,3 +32,6 @@ The UI Shell Framework is the part of [UII Application Integration Framework](..
 ### See also  
  [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

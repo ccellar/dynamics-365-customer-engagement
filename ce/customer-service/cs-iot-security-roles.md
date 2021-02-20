@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Security roles for Connected Customer Service
@@ -36,3 +31,6 @@ In general, access to IoT entities should mimic access to the customer asset ent
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

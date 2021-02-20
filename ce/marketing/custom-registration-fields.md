@@ -1,18 +1,14 @@
 ---
 title: "Add custom event-registration fields (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 Marketing"
-keywords: custom fields;event website;portal;registration;events
+description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 Marketing."
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 1972c4d0-e335-4a0a-9747-47a020b33132
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -91,3 +87,6 @@ Each event registration record includes the values that the registrant entered f
     ![Custom field values submitted for a single registration](media/event-reg-field-single-registration-responses.png "Custom field values submitted for a single registration")
 
 1. The **Registration responses** table here shows each custom-field value that was submitted together with this event registration.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

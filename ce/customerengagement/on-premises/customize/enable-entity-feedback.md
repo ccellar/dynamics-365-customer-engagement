@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Enable an entity for feedback/ratings
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure an entity for feedback/ratings](/powerapps/maker/common-data-service/configure-entity-feedback)
 
 Let customers write feedback for any entity record, or rate entity records within a defined rating range by enabling entities for feedback.  
   
@@ -89,3 +89,6 @@ Let customers write feedback for any entity record, or rate entity records withi
   
 ### See also  
  [Submit feedback or ratings for Dynamics 365 for Customer Engagement records](../basics/submit-feedback-ratings.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

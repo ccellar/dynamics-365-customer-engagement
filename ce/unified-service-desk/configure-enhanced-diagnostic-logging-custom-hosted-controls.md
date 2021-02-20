@@ -1,15 +1,14 @@
 ---
 title: "Configure enhanced diagnostic logging for custom hosted controls | MicrosoftDocs"
 description: "Learn about configuring diagnostic logging to record operational events and errors in the client application to a log file, which can be later used to identify and troubleshoot performance issues or errors."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -53,3 +52,6 @@ StackTrace:   at DemoControl.USDControl.ThrowAndLogException_Click(Object sender
  [Configure client diagnostic logging in Unified Service Desk](admin/configure-client-diagnostic-logging-unified-service-desk.md)   
  [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)   
  [Create custom Unified Service Desk hosted control](../unified-service-desk/walkthrough-create-custom-hosted-control-for-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

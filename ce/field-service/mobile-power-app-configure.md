@@ -1,41 +1,26 @@
 ---
-title: "Configure the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to configure the Field Service (Dynamics 365) mobile app.
+title: "Edit the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
+description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/27/2020
+ms.date: 10/30/2020
 ms.reviewer: krbjoran
+ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Configure the Field Service (Dynamics 365) mobile app
+# Edit the sitemap (home screen), forms, and views
 
 Administrators can edit how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
-
-Let's walk through three common configurations:
-
-1. Editing the entities displayed in the home screen (sitemap).
-2. Editing the fields and layout in the work order and booking forms.
-3. Editing the entities and records downloaded to the mobile phone in offline mode for use without internet access.
 
 ## Edit Sitemap entities on home screen
 
@@ -114,125 +99,20 @@ Add and delete booking fields as needed.
 
 Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 
-## Customize global search and enable scan to search 
+For more information, see the article on [customizing entity forms](https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-forms).
 
-By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
+## Edit views
 
-For more information, see: [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365)
+- [Create and edit public or system model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views-app-designer) 
 
-
-## Configure offline data and sync filters
-
-Administrators can edit the data downloaded to the Field Service (Dynamics 365) mobile app in offline mode when no internet access is available. 
+- [Customize entity views](https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-views)
 
 > [!Note]
-> When internet access is available, users will simply see all data on the server they have access to via their security role.
-
-> [!div class="mx-imgBorder"]
-> ![Simulated image showing the Field Service (Dynamics 365) mobile app on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
-
-Go to **Settings** > **Mobile Offline**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Settings menu in Dynamics 365 in a browser.](./media/mobile-2020-admin-mobile-offline.png)
-
-Then select **Mobile Offline Profiles**. Choose the **Field Service Mobile - Offline Profile**, which is the default configuration for offline data that is included with the Field Service app.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 settings, showing the All Mobile Offline Profiles screen.](./media/mobile-2020-offline-profile.png)
-
-The profile dictates which entities and how many records of each entity will be downloaded in offline mode.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
-
-Add the users who need to work offline in the right **USERS** panel. Users must be added here in order to download data offline.
-
-For each entity, you can choose a data download filter:
-
-1. Download related data only
-2. All records
-3. Other data filter
-4. Custom data filter
-
-For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next seven days or yesterday.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
-
-For another example, the **Work Order Product** entity has a data download filter set to **Download related data only**, which means that only work order products related to downloaded work orders are available offline. To accomplish this, the work order product mobile offline profile item was listed as an associated profile item of the work order offline profile, as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
-
-> [!Note]
-> By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
-
-For more information, see the article: [Dynamics 365 offline profiles](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
-
-### Create new offline profiles
-
-If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer.
-
-Go to the app designer.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the app designer.](./media/mobile-2020-open-app-designer.png)
-
-Go to **Properties** and add the offline profile.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the app designer, on the Field Service Mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
-
-## Offline JavaScript
-
-In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service (Dynamics 365) mobile app.
-
-Validation can be done with the help of some JavaScript and doing so works online and offline.
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
-
-Go to **Settings** > **Customizations**.
-
-Go to the **Bookable Resource Booking** entity.
-
-Go to **Forms**.
-
-Go to the **Booking and Work Order** form.
-
-Go to **Form Properties** in the top.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the lookup record dialog in Power Apps.](./media/mobile-2020-offline-javascript.png)
-
-Create and add a new JavaScript web resource to the form.
-
-Enter in the following code snippet:
-
-```javascript
-
-        function TestOnSave(executionContext) {
-
-            var formContext = executionContext.getFormContext(); // get formContext
-            var duration = formContext.getAttribute("duration").getValue();
-
-            formContext.ui.clearFormNotification("DurationErrorMessageId");
-
-            if (duration < 120) {
-                executionContext.getEventArgs().preventDefault(); // Stop the Save
-                formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
-        }
-    }
-
-```
-
-Ensure the web resource triggers on save of the form.
-  
-Save and publish customizations.
+> Currently, the booking calendar view is not editable. You cannot edit the fields displayed in the time slots on the calendar.
 
 ### See also
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

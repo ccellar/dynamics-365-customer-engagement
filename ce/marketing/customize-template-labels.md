@@ -1,6 +1,6 @@
 ---
-title: "Create and customize template labels (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to customize the selection, text, and background colors available for use when labelling various types of templates in Dynamics 365 Marketing"
+title: "Create and customize template labels (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to customize the selection, text, and background colors available for use when labelling various types of templates in Dynamics 365 Marketing."
 ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,6 @@ ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -176,3 +174,5 @@ To set the field used to define label options for a design entity:
 ## Make label values and settings visible in lists and forms
 
 If you've customized the fields used to present your labels, then you must also update the relevant template-entity forms to provide the field as a setting for users. Use standard techniques for model-driven apps in Power Apps to make these settings. More information: [Create and design model-driven app forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-design-forms) and [Understand model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,19 +1,15 @@
 ---
-title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing"
-keywords: email; marketing email; dynamic content; content settings
-ms.date: 07/16/2020
-ms.service:
-  - dynamics-365-marketing
+title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
+ms.date: 02/08/2021
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer: renwe
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -90,7 +86,7 @@ To use assist edit:
     - Select **Dynamic content** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
         - **Contact**: Places a field value, such as a first name, from the recipient's contact record. These values vary by recipient.
         - **ContentSettings**: Places a field value from the content settings. Values such as a subscription center URL, forwarding URL, and the sender postal address are available here. These values can vary according to the customer journey where the message is used.
-        - **FormDoiSubmission**: Places a dynamic field for [form double opt-in](form-double-opt-in). This field does not require a relationship value, as discussed below.
+        - **FormDoiSubmission**: Places a dynamic field for [form double opt-in](form-double-opt-in.md). This field does not require a relationship value, as discussed below.
         - **Message**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
     - Select **Static content** to place a fixed value from a specific record (such as the name of an upcoming event). This value is the same regardless of where you use the message or who receives it. Then make the following settings to identify the entity and record that contains the value you need:
         - **Select an option** (top combo box): Select the entity (such as event or account). To search for an entity, place your cursor in this box and start to type its name until the entity you want is shown.
@@ -104,7 +100,7 @@ To use assist edit:
    ![Assist edit, page 2](media/assist-edit3.png "Assist edit, page 2")
 
 > [!IMPORTANT]
-> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
+> Lists created using for-each loops are not rendered in a particular order and are not sortable by any field.
 
 <a name="assist-edit-relations"></a>
 
@@ -117,7 +113,7 @@ When you are selecting a relationship in assist edit, the options are displayed 
 - ***PrimaryEntity -> FieldName (SecondaryEntity)***  
     When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values form each available related record.
 - ***PrimaryEntity -> SecondaryEntity***  
-    When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values from each available related record.
+    When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and you cannot use this relationship for personalization. This is because the relationship is maintained by an intermediate entity, and you can only traverse to the intermediate entity from the primary entity.
 
 Where:
 
@@ -145,7 +141,7 @@ Assist edit creates an expression that uses a format such as the following:
 - `{{EntityName.RelationshipName.FieldName}}`
 - `{{EntityName(RecordID).RelationshipName.FieldName}}`
 
-Note that the notation used for relationship names in the resulting expressions don't match the way they are represented in the assist-edit dialog. Here are some examples of resulting expressions:
+Note that the notation used for relationship names in the resulting expressions doesn't match the way they are represented in the assist-edit dialog. Here are some examples of resulting expressions:
 
 - `{{contact.firstname}}`  
 Places the recipient's first name.
@@ -216,7 +212,7 @@ You can likewise use assist edit to help construct a dynamic expression for sett
 
 ## Find record IDs
 
-Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, assist edit will help you find these IDs, but sometimes you might need to find an ID manually while you are designing dynamic features for a message. To do find the ID for any record:
+Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, assist edit will help you find these IDs, but sometimes you might need to find an ID manually while you are designing dynamic features for a message. To find the ID for any record:
 
 1. Open the record you want to reference.
 2. Look at the URL shown in your browser's address bar, which should show a URL such as:  
@@ -380,14 +376,13 @@ In this example, the Dynamics 365 Marketing system has been customized to includ
 
 You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
 
-- Use custom-code elements place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), double click on a custom-code element to edit its content.)    
+- Use custom-code elements to place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), select on a custom-code element to edit its content.)    
     ![The custom-code element](media/custom-code-element.png "The custom-code element")
 - When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
 - When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
 - The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
 - The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing-insights service. This relationship name is not necessarily the same as the one used to customize Dynamics 365. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
-- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 
@@ -413,3 +408,6 @@ The following example (also shown previously) shows how to use comments to enclo
 [Set the sender, receiver, and legal designation](email-properties.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

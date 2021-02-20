@@ -1,16 +1,15 @@
 ---
 title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
 description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Web Client package  are JAWS compliant."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -147,3 +146,6 @@ The XAML example for Session Overview control displays you the **UserControl** w
     </controlStyles:USDTab>
 </TabControl>
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

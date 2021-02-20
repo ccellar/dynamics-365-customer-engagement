@@ -50,7 +50,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Demonstrate
 
-1. The `query` method retrieves a role from Common Data Service.
+1. The `query` method retrieves a role from Dataverse.
 2. The `Disassociate` message removes the role to a team.
 
 ### Clean up
@@ -58,3 +58,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 This sample creates no records. No cleanup is required.
     
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

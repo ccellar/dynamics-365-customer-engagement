@@ -4,21 +4,12 @@ description: "Learn about agent scripts and how to configure them."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
-ms.service: 
-   "dynamics-365-customerservice"
+ms.date: 10/12/2020
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
-# Preview: Guide agents with scripts
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
-> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
-> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../legal/supp-dynamics365-preview.md).
+# Guide agents with scripts
 
 ## Introduction
 
@@ -40,7 +31,7 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Prerequisites
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../omnichannel/administrator/add-users-assign-roles.md).
+- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
 
 - Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 
@@ -59,7 +50,7 @@ Create agent scripts in the Omnichannel Administration or Customer Service Hub a
     |------------|------------------------------|-------------------|
     | Name | A name for the agent script. | Chat session script |
     | Unique Name | A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul> |Contoso_script|
-    | Language | A language from the list. The languages that are enabled in Common Data Service appear in the list. | English |
+    | Language | A language from the list. The languages that are enabled in Microsoft Dataverse appear in the list. | English |
     | Description | Description for the agent script. | This agent script is used for chat sessions. |
 
 5. Select **Save**. The **Agent script steps** appears.
@@ -107,7 +98,7 @@ After you configure the agent script and add the field to a form, you need to as
 6. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate an agent script](../omnichannel/media/associate-agent-script.png "Associate an agent script")
+    > ![Associate an agent script](../customer-service/media/associate-agent-script.png "Associate an agent script")
 
 7. Select **Save**.
 
@@ -132,7 +123,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 4. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Build expression](../omnichannel/media/agent-script-build-expression.png "Build expression")
+    > ![Build expression](../customer-service/media/agent-script-build-expression.png "Build expression")
 
 5. Select the **Condition** step, and then create the condition.
 
@@ -141,12 +132,12 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 7. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../omnichannel/media/agent-script-build-expression2.png "Set default agent script")
+    > ![Set default agent script](../customer-service/media/agent-script-build-expression2.png "Set default agent script")
 
 8. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../omnichannel/media/agent-script-set-default.png "Set default agent script")
+    > ![Set default agent script](../customer-service/media/agent-script-set-default.png "Set default agent script")
 
 9. Follow steps 5 through 8 for the **If false** step.
 
@@ -166,7 +157,10 @@ To learn more, see [Use the automation dictionary to pass data parameter keys](a
 
 ### See also
 
-[Agent scripts](../omnichannel/agent/agent-oc/oc-agent-scripts.md)<br>
-[Macros](macros.md)<br>
-[Smart assist](smart-assist.md)<br>
-[Session templates](session-templates.md)
+[Agent scripts](../customer-service/oc-agent-scripts.md)  
+[Macros](macros.md)  
+[Smart assist](smart-assist.md)  
+[Session templates](session-templates.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

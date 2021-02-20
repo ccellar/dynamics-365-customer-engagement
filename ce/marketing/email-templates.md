@@ -1,17 +1,14 @@
 ---
-title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing"
+title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing."
 ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 0f661fed-315f-4932-9a06-a8de363ea42c
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -79,7 +76,7 @@ In the following screenshot, you can see a tile view of marketing-page templates
 
 The following screenshot shows the same collection of marketing-page templates, but with **Show as** set to **Grid**. In this example, the labels are shown in the **Tag** column.
 
-![Template gallery with labels in tile view](media/template-label-list.png "Template gallery with labels in tile view")
+![Template gallery with labels in grid view](media/template-label-list.png "Template gallery with labels in grid view")
 
 ### Set the label for each template
 
@@ -118,7 +115,7 @@ All email templates included with Dynamics 365 Marketing have been tested agains
     <td>Apple Mail 9/10<br>IBM Notes 9<br>Outlook 2000 Win 7<br>Outlook 2002 Win 7<br>Outlook 2003 Win 7<br>Outlook 2007 Win 7<br>Outlook 2010 Win 7<br>Outlook 2011 OS X 10.10<br>Outlook 2013 Win 7<br>Outlook 2013 120 DPI Win <br>Outlook 2016 OS X 10.10<br>Outlook 2016 Win 7<br>Windows 10 Email Win 10<br>Thunderbird</td>
     <td>Android 4.4<br>Android 5.1<br>Android 6.0<br>Gmail App IMAP Android 4.4<br>Gmail App Android 6.0<br>Gmail App iOS<br>Inbox by Gmail iOS<br>iPhone 5s iOS 7<br>iPhone 5s iOS 8<br>iPhone 6 iOS 8<br>iPhone 6 Plus iOS 8<br>iPhone 6s iOS 9<br>iPhone 6s Plus iOS 9<br>iPhone 7 iOS 10.3.2<br>iPad (Retina) iOS 10.3.2<br>iPad Mini iOS 10.3.2<br>iPad Pro (12.9 Inch) iOS,10.3.2</td>
     <td>AOL Explorer<br>AOL Firefox<br>AOL Chrome<br>Comcast Explorer<br>Comcast Firefox<br>Comcast Chrome<br>Freenet.de Explorer<br>Freenet.de Firefox<br>Freenet.de Chrome<br>GSuite Explorer<br>GSuite Firefox<br>GSuite Chrome<br>Gmail Explorer<br>Gmail Firefox<br>Gmail Chrome<br>Inbox by Gmail Chrome<br>Inbox by Gmail Firefox<br>GMX.de Explorer<br>GMX.de Chrome<br>GMX.de Firefox<br>Mail.ru Explorer<br>Mail.ru Chrome<br>Mail.ru Firefox</td>
-    <td>Office 365 Explorer<br>Office 365 Chrome<br>Office 365 Firefox<br>Orange.fr Explorer<br>Orange.fr Chrome<br>Orange.fr Firefox<br>Outlook.com Explorer<br>Outlook.com Chrome<br>Outlook.com Firefox<br>SFR.fr Explorer<br>SFR.fr Chrome<br>SFR.fr Firefox<br>T-Online.de Explorer<br>T-Online.de Chrome<br>T-Online.de Firefox<br>Web.de Explorer<br>Web.de Chrome<br>Web.de Firefox<br>Yahoo! Mail Explorer<br>Yahoo! Mail Chrome<br>Yahoo! Mail Firefox</td>
+    <td>Microsoft 365 Explorer<br>Microsoft 365 Chrome<br>Microsoft 365 Firefox<br>Orange.fr Explorer<br>Orange.fr Chrome<br>Orange.fr Firefox<br>Outlook.com Explorer<br>Outlook.com Chrome<br>Outlook.com Firefox<br>SFR.fr Explorer<br>SFR.fr Chrome<br>SFR.fr Firefox<br>T-Online.de Explorer<br>T-Online.de Chrome<br>T-Online.de Firefox<br>Web.de Explorer<br>Web.de Chrome<br>Web.de Firefox<br>Yahoo! Mail Explorer<br>Yahoo! Mail Chrome<br>Yahoo! Mail Firefox</td>
   </tr>
 </table>
 
@@ -154,3 +151,6 @@ Dynamics 365 Marketing provides both a simulated preview and an inbox preview fo
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Design elements reference](content-blocks-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

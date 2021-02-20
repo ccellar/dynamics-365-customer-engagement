@@ -1,15 +1,14 @@
 ---
 title: "Use knowledge base management for effective customer engagement in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use knowledge base management for effective customer engagement in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/17/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -82,3 +81,6 @@ Knowledge base management plays an important part in the customer service proces
  [Set up knowledge base management](https://go.microsoft.com/fwlink/p/?LinkId=691083)
 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

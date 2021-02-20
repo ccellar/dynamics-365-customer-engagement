@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -106,3 +105,6 @@ Located on the right side of the form, is the case resolution sub-grid. Here you
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

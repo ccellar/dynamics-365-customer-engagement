@@ -29,7 +29,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
    > [!NOTE]
    > Microsoft Teams integration is not supported on the following: 
    >  - Dynamics 365 Customer Engagement (on-premises)
-   >  - Common Data Service environment
+   >  - Microsoft Dataverse environment
    >  - Legacy web client or legacy apps
 
 
@@ -37,8 +37,6 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **File integration**: Co-author documents using Microsoft 365 and automatically sync with customer engagement apps in Dynamics 365. 
-- **Dynamics 365 assistant application for Microsoft Teams**: The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Microsoft 365 and Dynamics 365. For more information, see [Dynamics 365 assistant application for Microsoft Teams](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams).
-
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
@@ -63,10 +61,13 @@ By installing and allowing access to use of the bot, you agree to allow the LUIS
 
 The content of user’s queries and messages is retained in LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-To manage admin settings for apps in Microsoft Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as an Microsoft 365 admin, you can access these controls [here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
+To manage admin settings for apps in Microsoft Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as a Microsoft 365 admin, you can access these controls [here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
 
 
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)<br/>
  [Microsoft Teams help center](https://support.office.com/teams)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

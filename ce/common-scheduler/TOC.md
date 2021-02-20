@@ -1,4 +1,4 @@
-# [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
+# [Overview of Universal Resource Scheduling](schedule-anything-with-universal-resource-scheduling.md)
 
 # Scheduling
 ## [Schedule assistant overview](schedule-assistant.md)
@@ -21,7 +21,7 @@
 ## [Edit booking template](booking-template.md)
 ## [Booking alerts](booking-alert.md)
 ## [Schedule board tab settings](schedule-board-tab-settings.md)
-## [Preview the new schedule board](preview-schedule-board.md)
+## [Next-generation schedule board experience](preview-schedule-board.md)
 
 # Extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)

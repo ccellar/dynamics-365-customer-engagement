@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Define alternate keys to reference records
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define alternate keys using Power Apps portal](/powerapps/maker/common-data-service/define-alternate-keys-portal)
 
 With *alternate keys*, you can assure an efficient and accurate way of integrating data from external systems. It’s especially important in cases when an external system doesn’t store the record IDs (GUIDs) that uniquely identify records. The alternate keys are not GUIDs and you can use them to uniquely identify records. You must give an alternate key a unique name. You can use one or more entity fields to define the key. For example, to identify an account record with an alternate key, you can use the account name and the account number. You can define alternate keys without writing code, or you can define them programmatically. Note that while you can define alternate keys in the user interface (UI), they can only be used programmatically, in code.  
   
@@ -60,3 +60,6 @@ The example below uses the Account Number field in the alternate key definition.
  [Create and edit web resources](../customize/create-edit-web-resources.md)   
  [Define alternate keys for an entity (Developer Guide)](../developer/define-alternate-keys-entity.md)
  [Use an alternate key to create a record (Developer Guide)](../developer/use-alternate-key-create-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

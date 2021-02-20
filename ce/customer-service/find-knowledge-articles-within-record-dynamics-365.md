@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -87,3 +86,6 @@ For any customer service team, it’s important to give customers the right info
 ### See also  
 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

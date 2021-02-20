@@ -1,15 +1,14 @@
 ---
 title: "Unified Service Desk Hosted Controls | MicrosoftDocs"
 description: "Learn about the basic concepts related to hosted controls in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -48,3 +47,6 @@ The hosted control concept is central to the [!INCLUDE[pn_unified_service_desk](
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)   
  [Use UII hosted controls with Unified Service Desk](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

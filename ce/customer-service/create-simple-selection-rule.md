@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -88,3 +87,6 @@ You can also add resources to existing selection rules.
 ### See also     
  [Schedule a service activity](schedule-service-activity-csh.md)   
  [Create or change a resource group](create-edit-resource-group.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

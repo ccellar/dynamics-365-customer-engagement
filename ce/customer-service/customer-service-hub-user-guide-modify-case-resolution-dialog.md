@@ -1,13 +1,12 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | Microsoft Docs"
 description: "Understand cases in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 04/07/2020
-ms.service:
-  - "dynamics-365-customerservice"
-ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 04/07/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # Modify case resolution dialog box
@@ -229,3 +228,6 @@ You will know if a case has been successfully resolved per the status bar at the
 [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
 
 [Use the main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

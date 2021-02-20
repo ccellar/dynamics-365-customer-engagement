@@ -21,6 +21,8 @@ search.audienceType:
 # Sort records in a view
 
 <a name="BKMK_ConfigureSorting"></a>    
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sort records in a model-driven app view](/powerapps/maker/model-driven-apps/configure-sorting)
   
 1.  When you create or edit the view, select **Configure Sorting**.  
   
@@ -33,3 +35,6 @@ search.audienceType:
 
 ### See also
 [Create or edit a view](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

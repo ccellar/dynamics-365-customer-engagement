@@ -10,6 +10,16 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_playbookinstance
+  - D365-Entity-msdyn_playbookactivity
+  - D365-Entity-msdyn_playbookcategory
+  - D365-Entity-msdyn_playbooktemplate
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Manage playbook templates
@@ -111,3 +121,6 @@ To publish a playbook:
 [Associate documents with playbook activities](associate-documents-playbook-activities.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Define playbook categories](define-playbook-categories.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

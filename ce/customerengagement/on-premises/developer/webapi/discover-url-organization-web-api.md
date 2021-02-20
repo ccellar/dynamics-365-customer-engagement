@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2db13b4e-0e7c-4f25-b7be-70a612fb96e2
 caps.latest.revision: 18
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
@@ -104,3 +104,6 @@ The Discovery service RESTful API supports the CORS standard for cross-origin ac
 ## See also
 
 [Web API Global Discovery Service sample (C#)](/powerapps/developer/common-data-service/webapi/samples/global-discovery-service-csharp)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

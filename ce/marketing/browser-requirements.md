@@ -1,18 +1,14 @@
 ---
-title: "Browser requirements for Dynamics 365 Marketing | Microsoft Docs"
-description: "Learn about the browser requirements for Dynamics 365 Marketing"
-keywords: browser;requirements
+title: "Browser requirements for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn about the browser requirements for Dynamics 365 Marketing."
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 69bb4966-4abc-474a-8696-216441f1f530
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -70,3 +66,6 @@ If you are using Microsoft Edge on a touch device, such as a tablet, then you mu
 ## Supported email clients
 
 Marketing emails created and delivered using Dynamics 365 Marketing, including all templates included with Dynamics 365 Marketing, will render correctly on a wide range of recipient email clients, though older clients typically support fewer formatting options. For a complete list of tested email clients, see [Tested email clients](email-templates.md#tested-clients)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

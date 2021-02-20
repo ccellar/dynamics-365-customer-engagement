@@ -8,6 +8,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-invoice
+  - D365-Entity-salesorder
+  - D365-Entity-pricelevel
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Lock or unlock the price for an order or invoice (Sales Hub)
@@ -32,3 +41,6 @@ To lock prices or to use current pricing:
 
 [Create or edit orders](create-edit-order-sales.md)  
 [Create or edit invoices](create-edit-invoice-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-salesliterature
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Manage sales literature (Sales Hub)
@@ -50,3 +57,6 @@ There are two ways to send the sales literature to other users:
 [Create or edit a competitor record](create-edit-competitor-record-sales.md)  
 [Set up a product](create-product-sales.md)  
 [User Guide](user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

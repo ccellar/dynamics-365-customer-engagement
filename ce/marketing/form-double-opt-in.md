@@ -1,18 +1,21 @@
 ---
 title: "Set up form double opt-in (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up form double opt-in to let contacts confirm new subscriptions in Dynamics 365 Marketing"
-keywords: form double opt-in;gdpr;subscriptions;consent
+description: "How to set up form double opt-in to let contacts confirm new subscriptions in Dynamics 365 Marketing."
 ms.date: 04/23/2020
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
 ms.topic: article
-ms.assetid: dacfc72e-978c-41d1-b4c6-8c5b66042770
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up double opt-in on a per-form basis
@@ -91,3 +94,5 @@ More information: [Email marketing overview](prepare-marketing-emails.md), [Set 
 
 ### See also
 [Global double opt-in](double-opt-in.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

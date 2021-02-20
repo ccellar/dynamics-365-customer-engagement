@@ -1,15 +1,14 @@
 ---
 title: "Panels, panel types, and panel layouts in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using panels to display hosted controls of various types. Various predefined panel types are available in Unified Service Desk to support a variety of layout options such as tabbed layout, deck layout, and stacked layout."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -380,3 +379,6 @@ search.app:
 ### See also
  [Use custom panel types and panel layouts](../unified-service-desk/use-custom-panel-types-panel-layouts-unified-service-desk.md)
  [Keyboard shortcuts for panels](../unified-service-desk/keyboard-shortcuts-panels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

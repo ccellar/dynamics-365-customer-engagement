@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -67,3 +66,6 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
  [Set work hours for a resource](../customer-service/set-work-hours-resource.md)   
  [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)   
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

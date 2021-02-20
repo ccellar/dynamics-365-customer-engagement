@@ -6,18 +6,16 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
-  D365CE
-  D365CS
-  
+  - D365CE
+  - D365CS
 ---
 
 # Use sites to manage your service locations
@@ -42,7 +40,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 ### See also  
 
-[UCI-based service scheduling overview](uci-scheduling-overview.md)
+[Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 
 [Create or edit a service](uci-create-edit-service.md)
 
@@ -53,3 +51,6 @@ Before you begin, make sure you have the System Administrator or System Customiz
 [Create resource groups](uci-create-resource-groups.md)
 
 [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

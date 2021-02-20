@@ -3,25 +3,16 @@ title: "Advanced options for inspections in Dynamics 365 Field Service | Microso
 description: Learn how to configure more advanced scenarios for inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/19/2020
+ms.date: 02/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -29,31 +20,37 @@ search.app:
 
 # Advanced options for inspections in Dynamics 365 Field Service
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 In this article, we'll take a look at more advanced scenarios for using inspections in Dynamics 365 Field Service. For general information about inspections, see [this article on inspections](inspections.md).
 
-## Inspections for customer assets
+For a guided walkthrough, check out the following video.
 
-To relate an inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4JiMF]
+
+## Branching and conditional logic
+
+The inspection can be configured to look and act differently based on inspection answers in real time as the technician fills it out.
+
+Go to the **Logic** section of the designer form to add branching and conditional logic to the inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the work order service task showing the service task relates to section, highlighting an associated customer asset.](./media/inspections-wost-customer-asset.png)
+> ![Screenshot of the logic designer for Field Service inspections.](./media/inspections-logic1.png)
 
-Associating a customer asset allows the technician to see which customer asset needs the inspection. From the customer asset, they can see all related inspection history.
+Based on the response to an inspection question, options include:
+
+- **Make page visible**: Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
+
+- **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
+
+- **Change to required**: Question becomes required when the condition is true.
+
+- **Skip to question**: When the condition is true, then the focus shifts to the selected question.
+
+See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a customer asset on the work order service tasks section, showing the associated inspection.](./media/inspections-custoiner-asset-service-history.png)
-
-> [!Note]
-> If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
-
-### Inspecting X number of assets at a location
-
-Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can:
-
-- Create one inspection with 10 questions - one for each asset - and associate the single inspection to a single service task, or
-- Create 10 work order service tasks, each with one inspection.
- 
-When deciding, keep in mind work order service tasks can be associated to customer assets to build service history, viewable on the customer asset record. This means creating 10 service tasks each related to a different customer asset has the advantage of helping you build service history. The advantage of utilizing a single service task with multiple questions has the benefit of being easier to add to a work order and quicker to fill out. 
+> ![Screenshot of a filled out logic designer for a Field Service inspection.](./media/inspections-logic2.png)
 
 ## Copy inspections
 
@@ -83,6 +80,45 @@ In the **Versions** section of the inspection form, you'll see the current versi
 When the draft version is published, the existing published inspection version will be deactivated.
 
 Existing work orders will display and reference the previous version of the inspection, whereas new work orders will display and reference the new revised version.
+
+## Export as PDF
+
+Exporting and inspection as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
+
+From an inspection, select **Export to PDF** in the top ribbon.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the export as PDF option.](./media/inspections-export1.png)
+
+A PDF with the blank inspection questions will download automatically.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the generated inspection PDF.](./media/inspections-export2.png)
+
+The PDF will be interactive, where you can enter answers and save them to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. 
+
+Some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
+
+> [!Note]
+> The export to PDF function only exports blank inspections without responses.
+
+## Import and export inspection templates
+
+> [!Note]
+> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+
+Administrators can export inspection templates to then import into another environment. This is valuable in scenarios where an inspection was created in a test environment but now needs to be imported into a live production environment to use. Importing saves you having to re-create the inspection from scratch in the production environment.
+
+From the inspection, select **Export** > **Export to json** in the top ribbon. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the option to export to JSON in the insepction.](./media/ExportJsonFile.png)
+
+In the list of inspections in another environment, select **Import from json** in the top ribbon.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the option to import from json.](./media/importJsonFile.png)
+
 
 ## Understand, view, and report inspection responses
 
@@ -154,6 +190,63 @@ Back in Power Apps, on the **Customer Voice survey question response** entity, y
 > Upon publish of an inspection, the deserialized inspection definition JSON data is ingested into the Dynamics 365 Customer Voice entity **msfp_question**. This flow gets triggered on state changed to published and performs the same.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the inspection deserialization flow in Power Automate.](./media/10-Flow-for-published-questions.jpg)
+
+## Parse inspection responses
+
+Inspection parsing allows you to isolate and select specific parts of inspection responses, like taking an inspection attachment or image within a response to use for other business processes. 
+
+[Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
+
+## Language translations
+
+> [!Note]
+> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+
+Inspection creators can add language variations for each inspection.
+
+From an inspection, go to the **Translation** section of the form, select a language from the dropdown, and translate each question.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the translation tab on an inspection.](./media/Translationimage3.png)
+
+Save and publish the inspection.
+
+Next, in order for technicians to view translated inspections on the Dynamics 365 mobile app, you must have language packs installed for each language the inspection is translated to.
+
+Go to **Settings** > **Administration** > **Language Settings**, then select each language. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the language settings the Field Service.](./media/inspections-language-pack.png)
+
+The maker who adds the strings does not need to install the language packs. The technician who wants to see inspections in their language needs the desired language's pack to be installed.
+
+## Inspections for customer assets
+
+To relate an inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the work order service task showing the service task relates to section, highlighting an associated customer asset.](./media/inspections-wost-customer-asset.png)
+
+Associating a customer asset allows the technician to see which customer asset needs the inspection. From the customer asset, they can see all related inspection history.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a customer asset on the work order service tasks section, showing the associated inspection.](./media/inspections-custoiner-asset-service-history.png)
+
+> [!Note]
+> If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
+
+### Inspecting X number of assets at a location
+
+Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can:
+
+- Create one inspection with 10 questions - one for each asset - and associate the single inspection to a single service task, or
+- Create 10 work order service tasks, each with one inspection.
+ 
+When deciding, keep in mind work order service tasks can be associated to customer assets to build service history, viewable on the customer asset record. This means creating 10 service tasks each related to a different customer asset has the advantage of helping you build service history. The advantage of utilizing a single service task with multiple questions has the benefit of being easier to add to a work order and quicker to fill out. 
+
+
+
+
 
 ## Configuration considerations
 
@@ -276,3 +369,6 @@ In this example, we'll create a **Work Order Service Task** with another **Servi
 > ![Screenshot of the Power Automate flow, showing the "if yes" condition set to trigger a new record creation.](./media/inspections-workflow-then-create-WOST.png)
 
 Save and test your flow.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

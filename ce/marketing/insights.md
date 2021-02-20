@@ -1,18 +1,14 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing"
-keywords: insights;results;KPIs;analytics
-ms.date: 08/19/2020
+description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
+ms.date: 01/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 2f5016aa-540a-4366-94a3-205d985c8da9
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -42,6 +38,9 @@ Dynamics 365 Marketing keeps track of the way your contacts react to your variou
 For nearly all entity types, you can view related results and analytics by opening a record and then switching to the **Insights** tab.
 
 ![Open the insights tab](media/insights-tab-selector.png "Open the insights tab")
+
+> [!IMPORTANT]
+> Marketing analytics are processed in less than 10 minutes per 100,000 items (emails sent, contacts, etc.). Processing, however, can take up to 1 hour, especially when processing a large number of items. For example, 1,000,000 items may take up 6 hours to process. The processing speed decreases when the number of items exceeds the maximum limit listed in the [fair use policy](fair-use-policy.md).
 
 <a name="categories"></a>
 
@@ -135,7 +134,7 @@ Legend:
 1. **Stopped**: Shows the number of contacts that were stopped from continuing the journey at this tile. There are two main reasons that a contact might get stopped: they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey.
 1. **Marketing page**: Shows a marketing page dependency.
 1. **Event**: Shows an event dependency.
-1. **Voice of the Customer survey**: Shows a Voice of the Customer survey dependency.
+1. **Customer Voice survey**: Shows a Customer Voice survey dependency.
 1. **Dynamics 365 Customer Voice survey**: Shows a Dynamics 365 Customer Voice survey dependency.
 1. **Marketing form**: Shows a marketing form dependency.
 
@@ -195,7 +194,7 @@ A *blocked email* is a message that the system didn't attempt to send even thoug
 - **Recipient address isn't valid**: There is something wrong with the recipient address (such as no "@"), which means that the message can't be delivered.
 - **Sender address isn't valid**: The email is designed with a sender address that is blank or malformed. This may affect your entire send (if you are using an invalid static address or expression), or it may affect just a few messages if you are using a dynamic expression that only fails for some contacts for which data is invalid or missing.
 - **Reply-to address isn't valid**: Same as for the invalid sender address, but this applies to the reply-to field.
-- **Email contains blacklisted links**: Dynamics 365 Marketing analyzes the content of outgoing messages to make sure they don't contain any blacklisted links. If one is found, the message is blocked. The system keeps an internal list of blacklisted sites that are known to be used for phishing, hosting malware, and other issues. This feature helps make sure that you don't accidentally include a link to one of those sites in your marketing messages.
+- **Email contains block listed links**: Dynamics 365 Marketing analyzes the content of outgoing messages to make sure they don't contain any blaok listed links. If one is found, the message is blocked. The system keeps an internal list of block listed sites that are known to be used for phishing, hosting malware, and other issues. This feature helps make sure that you don't accidentally include a link to one of those sites in your marketing messages.
 - **Email is missing required fields**: A required field (such as the subject) contains no value. Usually, this type of error would be found when you error-check the message, but if you are using a dynamic expression on a required filed, then the expression could fail to evaluate for some or all recipients.
 - **Contact deleted**: The target segment included a contact that has since been deleted.
 - **Contact is inactive**: The target segment included a contact that has been set to inactive.
@@ -272,3 +271,6 @@ Redirect URLs provide the following [categories](#categories) on the **Insights*
 
 - **Overview**: Displays a map that shows where people were when they selected the redirected link.
 - **Timeline**: Shows a table with details about each time the redirect URL was selected.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

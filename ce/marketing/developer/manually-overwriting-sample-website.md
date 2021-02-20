@@ -1,22 +1,26 @@
 ---
-title: "Manually overwrting sample website | MicrosoftDocs"
-description: "Provides information about how you can manually overwrite event management sample website."
-ms.custom:
-  - dyn365-developer
-  - dyn365-marketing
+title: "Manually overwriting a sample event  website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Learn how to manually overwrite an event management sample website."
 ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.topic: "article"
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Manually overwriting sample website
 
-The standard process of updating an event management website is to download a newer version and run the provided script to push the changes to the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup) instance described in [Dynamics 365 Portal hosted](portal-hosted.md#deployment). 
+The standard process of updating an event management website is to download a newer version and run the provided script to push the changes to the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup) instance described in [Power Apps portal hosted](portal-hosted.md#deployment). 
 
-There are situations where it is not possible to push the new website definition because of the changes to the underlying portal web pages. Portal web pages, web templates, and web files are used to host the event website when you host the website through [Dynamics 365 Portal hosted](portal-hosted.md). You need to update these entities manually if you make any changes to these entities. There is no automatic mechanism to update from version to version as it breaks the customer customizations.
+There are situations where it is not possible to push the new website definition because of the changes to the underlying portal web pages. Portal web pages, web templates, and web files are used to host the event website when you host the website through [Power Apps portal hosted](portal-hosted.md). You need to update these entities manually if you make any changes to these entities. There is no automatic mechanism to update from version to version as it breaks the customer customizations.
 
 The web pages, web templates, and web files are packaged into solution files to import them into the Dynamics 365 Marketing instance using [The Configuration Migration tool](https://docs.microsoft.com/dynamics365/customer-engagement/admin/import-configuration-data). 
 
@@ -33,6 +37,7 @@ Manually overwriting the event management website overwrites the possible custom
 
 | Release Version |Download link|
 |--|--|
+| 1.12.10030 (December 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Dec20-1.12.10030.1020.zip) |
 | 1.12.10028 (October 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Oct20-1.12.10028.1027.zip) |
 | 1.12.10027 (September 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Sept20-1.12.10027.1013.zip) |
 | 1.12.10024 (June 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-June20-1.12.10024.1015.zip) |
@@ -58,3 +63,6 @@ Manually overwriting the event management website overwrites the possible custom
 | 1.2.1016 (March 2018 Release) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Mar18-1.2.1016.zip) |
 | 1.1.1006 (February 2018 Release) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Feb18-1.1.1006.zip) |
 | 1.0.1005 (Public Preview) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-PublicPreview-1.0.1005.zip) |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

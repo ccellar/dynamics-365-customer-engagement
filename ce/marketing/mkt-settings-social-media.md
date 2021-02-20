@@ -1,17 +1,14 @@
 ---
-title: "Configure and authenticate social media accounts  (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Configure and authenticate each social media account where you'd like to author, schedule, and post updates in Dynamics 365 Marketing"
+title: "Configure and authenticate social media accounts  (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Configure and authenticate each social media account where you'd like to author, schedule, and post updates in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: d7886dc8-55bb-4b8e-9703-c09146226fe4
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -51,3 +48,6 @@ You can delete a social configuration at any time to prevent Dynamics 365 Market
 
 [Open the advanced settings](open-advanced-settings.md)  
 [Schedule and post messages on social media](social-posting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

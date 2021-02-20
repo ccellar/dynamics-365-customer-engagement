@@ -10,6 +10,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_playbookinstance
+  - D365-Entity-msdyn_playbookactivity
+  - D365-Entity-msdyn_playbookactivityattribute
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 
@@ -42,3 +51,6 @@ When you complete all the activities created for a playbook, you must mark the p
 ### See also
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 [Track playbook activities](track-playbook-activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

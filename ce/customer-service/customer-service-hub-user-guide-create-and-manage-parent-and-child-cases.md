@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 04/28/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -60,3 +59,6 @@ You can set a parent-child relationship between cases where you can set one case
 
 [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

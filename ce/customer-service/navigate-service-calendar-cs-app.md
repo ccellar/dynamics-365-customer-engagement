@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -57,3 +56,6 @@ In the Service calendar, you can do the following tasks and activities:
  [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)   
  [Create or edit an appointment](../basics/create-edit-appointment.md)   
  [Overview of service and service scheduling](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

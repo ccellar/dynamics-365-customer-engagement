@@ -1,24 +1,15 @@
 ---
 title: "Create a purchase order (Dynamics 365 Field Service) | MicrosoftDocs"
+description: Learn about creating purchase orders in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 01/09/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: d0dd3b42-498f-492d-89c7-f5c3d2e11a2d
-caps.latest.revision: 20
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -115,3 +106,6 @@ A purchase order receipt doesn't need to contain all products requested or all q
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)     
  [Process a return](../field-service/process-return.md)<br>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

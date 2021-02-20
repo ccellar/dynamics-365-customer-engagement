@@ -1,17 +1,14 @@
 ---
-title: "Plan, publicize, and collect registrations for events (Dynamics 365 Marketing) | Microsoft Docs "
-description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing"
-keywords: events; event management
-ms.date: 03/30/2020
+title: "Plan, publicize, and collect registrations for events (Dynamics 365 Marketing) | Microsoft Docs"
+description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing."
+ms.date: 10/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 30bb10ad-0dc4-4fce-ae5a-8c1917c7da0c
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -34,9 +31,9 @@ Key event-management features include:
 - Venue management for tracking buildings, rooms, and room layouts.
 - Guest logistics for registering hotels, room allocation, and reservations.
 - Tracking sponsors and their sponsorships for each event.
-- Creating webinars and simulcasts with attendance metrics (in partnership with industry-leading webinar provider ON24).
+- Creating Microsoft Teams webinars and live events.
 - Reviewing the attendance history of each contact, including events and sessions attended.
-- Voice of the Customer survey integration.
+- Dynamics 365 Customer Voice survey integration.
 - A fully functioning event website you can publish that includes:
   - Self-service attendee registration.
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers.
@@ -52,3 +49,5 @@ After your event, session, track, speaker, and pass records are all in place for
 > If you have created a [Portal hosted event website](./developer/portal-hosted.md), you must [manually overwrite your sample website with the latest version](./developer/manually-overwriting-sample-website.md) to maintain functionality after applying any Dynamics 365 Marketing update.
 >
 > If your event website is [self-hosted](./developer/self-hosted.md), you must [install the latest self-hosted sample website](./developer/event-management-web-application.md) to maintain functionality after applying any Marketing update.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

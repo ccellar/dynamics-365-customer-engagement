@@ -6,18 +6,16 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
-  D365CE
-  D365CS
-  
+  - D365CE
+  - D365CS
 ---
 
 # Use settings to set up knowledge management
@@ -101,3 +99,6 @@ To know more about how users use this option, see [Submit ratings and feedback f
 ### See also  
 
  [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

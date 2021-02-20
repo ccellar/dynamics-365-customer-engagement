@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -36,7 +27,7 @@ Resource scheduling optimization can use historical traffic information in order
 ## Prerequisites
 
 - **Connect to Maps** must be set to **Yes**. Go to **Resource Scheduling App** > **Settings** > **Administration** > **Scheduling Parameters** to make sure.
-- Predictive travel times that use historical data is only available for scheduling with resource scheduling optimization (RSO); the feature is not currently supported for the schedule assistant or manual scheduling.
+- Predictive travel times that use historical data is only available for scheduling with resource scheduling optimization; the feature is not currently supported for the schedule assistant or manual scheduling.
 - Resource scheduling optimization v3.2.0.4+.
 
 ## Set travel time calculation on optimization goal
@@ -84,3 +75,6 @@ With predictive travel enabled, resource scheduling optimization will generate a
 - Running resource scheduling optimization with predictive travel times can result in different travel times and different sequences of schedules.
 
 - Predictive travel time is not real-time traffic, so they will not reflect one-time events like traffic accidents or road closures. Instead, this feature will take into account general traffic patterns like high volumes of cars in the morning when many people are commuting to work.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

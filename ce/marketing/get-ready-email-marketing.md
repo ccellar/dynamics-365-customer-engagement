@@ -1,17 +1,15 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing"
-ms.date: 06/18/2020
+description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing."
+ms.date: 12/16/2020
 ms.service: dynamics-365-marketing
-ms.custom: 
+ms.custom:
+  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: d6e63962-e06a-4bc2-90d2-e7bca4e12d61
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -45,7 +43,7 @@ Both spam filters and sender-reputation systems analyze the content of the messa
 
 ### Be mindful of the size of your HTML content
 
-You should limit the HTML content of email messages to a maximum size of 100 KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128 KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
+Limit the HTML content of email messages to a maximum size of 100 KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128 KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
 
 The HTML size limit is important because email providers (such as Gmail) "clip" email messages that are above a certain size (102 KB, in Gmail's case). Instead of including the full message in a recipient's inbox, the email provider will truncate the message and include a link to view the entire message. Additionally, some spam filters scrutinize more intensely when they see large emails.
 
@@ -102,6 +100,14 @@ Dynamics 365 Marketing helps you to generate, register, and confirm DKIM keys fo
 > [!IMPORTANT]
 > If your organization uses _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) to protect against phishing attacks involving your domain, then it's extra important that you set up DKIM for your sending domains as described in [Authenticate your domains](mkt-settings-authenticate-domains.md). This will help to prevent false positives during DMARC checks made by receiving systems.
 
+## Set up an SPF record
+
+The SPF (Sender Policy Framework) is an email authentication mechanism that helps prevent email spoofing. Setting up an SPF record allows an email sender to list IP addresses that are authorized to send emails on behalf of the sender's domain.
+
+The SPF record is set up as a TXT type DNS record for the sending domain. Email recipients can check the TXT record when receiving an email and reject emails that originate from unrecognized IP addresses. Implementing an SPF record for your sending domain will show recipients that your email messages were sent from a legitimate source. An "SPF PASS" result will improve your domain's reputation score in your recipients' spam filters.
+
+To to learn more about SPF records and how to set up an SPF TXT record for your sending domain, see [Create an SPF TXT record](create-spf-record.md)
+
 ## Test your deliverability
 
 Once you have all of the relevant email-authentication systems in place, we highly recommend that you test your deliverability to all of the major email hosts (such as Gmail, Outlook.com, Yahoo mail, and more), and to as many private domains as your can (including your own). To do this:
@@ -113,20 +119,19 @@ Once you have all of the relevant email-authentication systems in place, we high
 
 ## Microsoft's spam policy for email marketing
 
-Throughout this topic, we've stressed the importance of maintaining clean, opted-in send lists combined with valued content and collaborative sending behavior. These are all important aspects of building a strong sender reputation and thereby achieving high deliverability and in-box placement. Because email sent by Dynamics 365 Marketing is delivered from shared sending domains, Microsoft constantly monitors all delivery results, spam complaints, and deny lists to make sure our sending domains maintain their high reputation for the benefit of all customers.
+Throughout this topic, we've stressed the importance of maintaining clean, opted-in send lists combined with valued content and collaborative sending behavior. These are all important aspects of building a strong sender reputation and thereby achieving high deliverability and inbox placement. Because email sent by Dynamics 365 Marketing is delivered from shared sending domains, Microsoft constantly monitors all delivery results, spam complaints, and block lists to make sure our sending domains maintain their high reputation for the benefit of all customers.
 
 To help protect you, the responsible marketer, against the behavior of bad actors beyond your control, we have implemented an anti-spam policy that protects your sending reputation. Here's how it works:
 
 ### Stage 1: Inform and warn
 
-When we notice that a particular customer is generating a relatively high rate of bounces or spam complaints, we'll let them know right away that something is wrong with the way they are using the system and will offer our assistance to help sort it out.
-When this occurs, we will send a notification directly to the administrator by email. This communication will urge the customer to contact Microsoft Support for assistance as soon as possible.
+When we notice that a Dynamics 365 Marketing environment is generating a high bounce rate or spam complaints, we will send an email to the administrator to inform them of the issue and offer assistance in remedying the problem. If further assistance is needed, the communication will urge the administrator to contact Microsoft Support.
 
-### Stage 2: Move to a higher risk sending pool
+### Stage 2: Move to a high-risk sending pool
 
-If the problem persists for more than a few days and the customer still has not contacted Microsoft Support, then we will move that customer to a higher risk sending pool, which has a lower reputation than the high-deliverability sending pool provided to compliant customers.
+If the bounce rate or spam complaint problem persists for more than a few days, and if the administrator has still not contacted Microsoft Support, we will move the Marketing environment to a high-risk sending pool. The high-risk sending pool has a lower reputation score than the standard high-deliverability sending pool.
 
-When this occurs, we will send email notification to alert the customer that we have moved them to a higher risk sending pool and to urge them to contact Microsoft Support for assistance. It may still be possible for the customer to return to the low-risk email sending pool, but not before contacting Microsoft Support and learning how to address the issue going forward.
+When a Marketing environment is moved to the high-risk sending pool, we will send an email to the administrator to inform them of the sending pool change and to urge them to contact Microsoft Support for assistance. It may still be possible for the Marketing environment to return to the low-risk sending pool, but not before the administrator contacts Microsoft Support to address the issue.
 
 ## Using a dedicated sender IP
 
@@ -147,7 +152,7 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
 - **Maintain a regular and consistent send volume**  
     You must spread out your email sends to ensure that you send roughly the same volume every week or so. Don't try to send all your messages at once at the start of each month, for example.
 - **You should still set up DKIM**  
-    The DKIM sender-authentication standard is essential for optimizing your marketing email deliverability. It's just as important when you're using a dedicated IP as when using a shared IP, and you set it up in exactly the same way. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
+    The DKIM sender-authentication standard is essential for optimizing your marketing email deliverability. It's as important when you're using a dedicated IP as when using a shared IP, and you set it up in exactly the same way. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
 - **You concentrate risk on yourself and can pay a high price for any mistakes**  
     When you are the only one using your sending IP, any mistakes you make will affect your sender reputation directly, without being diluted by the large volume of compliant messages being sent by a large pool of other users.
 
@@ -162,6 +167,7 @@ To ensure that you always have the correct IP addresses, you should refer to the
 
 The follow code snippet is an example section from the IP ranges document. The subnets are listed in this section of the JSON file:
 
+```
       "name": "Dynamics365ForMarketingEmail",
       "id": "Dynamics365ForMarketingEmail",
       "properties": {
@@ -178,8 +184,12 @@ The follow code snippet is an example section from the IP ranges document. The s
         ]
       }
     }
+```
 
 ### See also
 
 [Create a marketing email and go live](create-marketing-email.md)  
 [Email marketing overview](prepare-marketing-emails.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

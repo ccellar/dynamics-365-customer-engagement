@@ -12,6 +12,8 @@ manager: annbe
 
 # Scan business cards
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 The integrated business card scanner in Dynamics 365 Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 Sales, so salespeople don’t spend time on entering the data manually and can focus on more important tasks.
 
 > [!IMPORTANT]
@@ -53,3 +55,6 @@ To scan a business card:
 
 [Customize the business card scanner control](customize-business-card-scan-control.md)  
 [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

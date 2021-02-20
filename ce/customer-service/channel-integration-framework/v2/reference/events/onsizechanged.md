@@ -1,13 +1,12 @@
 ---
 title: "onsizechanged (JavaScript API Reference) for Microsoft Dynamics Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: ""
-author: susikka
-ms.author: susikka
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -29,3 +28,6 @@ applies_to:
 
 - [removeHandler](../microsoft-ciframework/removeHandler.md)
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

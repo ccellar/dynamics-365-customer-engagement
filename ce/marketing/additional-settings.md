@@ -1,19 +1,14 @@
 ---
 title: "Manage sample data (Dynamics 365 Marketing) | Microsoft Docs"
 description: "For administrators: Add or remove sample data for Dynamics 365 Marketing."
-keywords: administration; sample data
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
-  - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 9aad261a-91bb-42e6-b00b-bf0dcd5a6693
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -36,3 +31,6 @@ To manage your sample data, go to **Settings** > **Advanced settings** > **Other
 > The sample data includes sample designs for marketing-automation features such as marketing emails, marketing pages, customer journeys, and more. These elements are all provided in a draft state, which means that you need to activate each relevant record by opening it and choosing **Go Live** before you can use it. Customer journeys in particular, which combine many of these elements, will generate several warning messages on error check to remind you to activate each relevant element. These warnings are normal and to be expected, so just read the messages and go live with each listed record as needed.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

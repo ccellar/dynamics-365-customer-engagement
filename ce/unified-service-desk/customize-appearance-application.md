@@ -1,15 +1,14 @@
 ---
 title: "Customize the appearance of your application | MicrosoftDocs"
 description: "Learn about customizing the appearance of Unified Service Desk login screen, splash screen, and the client application to change the branding and look and feel to align with your organization branding."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -33,3 +32,6 @@ You can customize the appearance of [!INCLUDE[pn_unified_service_desk](../includ
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

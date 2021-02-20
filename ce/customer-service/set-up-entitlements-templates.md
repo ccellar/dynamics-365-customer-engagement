@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -90,3 +89,6 @@ Quickly create other entitlements prefilled with the basic information like the 
   
 ### See also  
  [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

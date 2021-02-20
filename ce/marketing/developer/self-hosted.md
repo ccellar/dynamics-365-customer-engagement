@@ -1,15 +1,19 @@
 ---
-title: "Self-hosted custom event website | MicrosoftDocs"
+title: "Self-hosted custom event website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality for self-hosted custom event websites in Dynamics 365 Marketing."
-ms.custom:
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
-ms.topic: "article"
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Self-hosted custom event website
@@ -72,5 +76,8 @@ You can find the built website in the **dist** folder of the root directory.
 
 ### See also
 
-[Dynamics 365 Portal hosted](portal-hosted.md)<br />
+[Power Apps portal hosted](portal-hosted.md)<br />
 [Custom event website localization](event-portal-localization.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

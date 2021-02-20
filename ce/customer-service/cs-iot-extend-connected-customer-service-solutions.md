@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Extend Connected Customer Service solutions
@@ -64,3 +59,6 @@ The Azure services and components, including the ones detailed in [Connected Cus
 - Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
   
   A common example of this capability is to associate a [Customer Asset](https://www.microsoft.com/dynamics/crm-customer-center/configure-and-set-up-customer-assets-field-service.aspx) to an `IoT Device`.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

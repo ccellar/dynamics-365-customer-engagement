@@ -1,18 +1,14 @@
 ---
 title: "Create segments based on interactions (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to create segments based on contact interaction records in Dynamics 365 Marketing"
-keywords: segments; behavioral segment
+description: "How to create segments based on contact interaction records in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 332e95b3-82fa-4fdd-834c-3fda05caa3bd
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -68,3 +64,5 @@ Often, you'll want to find interactions associated with a specific form, custome
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Generate dynamic segments from customer journey results](generate-segment-from-journey.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Configure workflow steps
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure real-time workflow stages and steps](/powerapps/maker/common-data-service/configure-workflow-steps)
 
 When configuring workflows you have four major areas to consider:  
   
@@ -126,3 +126,6 @@ When configuring workflows you have four major areas to consider:
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
  [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

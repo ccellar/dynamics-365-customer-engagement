@@ -1,13 +1,12 @@
 ---
 title: "onSessionSwitched event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: ""
-author: susikka
-ms.author: susikka
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 03/20/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -32,3 +31,6 @@ The `onSessionSwitched` event takes following eventData:
 [setClickToAct](../microsoft-ciframework/setClickToAct.md)<br />
 [addHandler](../microsoft-ciframework/addHandler.md)<br />
 [removeHandler](../microsoft-ciframework/removeHandler.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

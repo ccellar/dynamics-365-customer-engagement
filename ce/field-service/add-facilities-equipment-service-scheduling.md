@@ -9,15 +9,10 @@ ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
-  - dyn365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: f50d894b-1d7f-4305-9924-5957e78eed6c
 ---
 
 # Add facilities and equipment for service scheduling (Customer Service)
@@ -68,3 +63,6 @@ Facilities and equipment are resources you’d use to perform services for your 
   
 ### See also  
  [Basics of service and service scheduling](../field-service/basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

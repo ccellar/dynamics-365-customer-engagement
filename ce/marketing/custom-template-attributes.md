@@ -1,18 +1,14 @@
 ---
 title: "Use custom attributes to enable designer features in templates (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 Marketing"
-keywords: custom attributes;templates;email;marketing pages;HTML
+description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 Marketing."
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 346a437c-f9c7-47ea-94c6-c9deeadfa116
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -350,3 +346,6 @@ So, in this example, the `<img>` tag would resolve to something like:
 [Email marketing overview](prepare-marketing-emails.md)  
 [Create a new email and design its content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

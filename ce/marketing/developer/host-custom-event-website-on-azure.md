@@ -1,17 +1,19 @@
 ---
-title: "Hosting your custom event website on Azure | MicrosoftDocs"
-description: "Step-by-step tutorial on how to host your custom event website on Azure"
-ms.custom:
-  - dyn365-developer
-  - dyn365-marketing
+title: "Hosting your custom event website on Azure (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Step-by-step tutorial on how to host your custom event website on Azure."
 ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - "marketing"
-ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Host your custom event website on Azure
@@ -92,3 +94,6 @@ To use event management public API, you need a web application token. The web ap
 ### See also
 
 [Build and host custom event website](event-management-web-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

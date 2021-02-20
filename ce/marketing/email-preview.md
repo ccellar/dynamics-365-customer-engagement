@@ -1,17 +1,14 @@
 ---
-title: "Preview and test send an email message design (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to use in-app previews and test sends to inspect and test your email message design in Dynamics 365 Marketing"
+title: "Preview and test send an email message design (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to use in-app previews and test sends to inspect and test your email message design in Dynamics 365 Marketing."
 ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 40f94345-90c1-4c85-990c-e82017bb23e8
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -101,3 +98,6 @@ Select the **Save** button the bottom of the flyout panel to send the message to
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Set the sender, receiver, language, and legal designation](email-properties.md) 
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -108,3 +107,6 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
 
 [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

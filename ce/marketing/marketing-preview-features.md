@@ -1,18 +1,14 @@
 ---
 title: "Preview features (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn what preview features are, and how to activate and use them in Dynamics 365 Marketing"
-keywords: preview
+description: "Learn what preview features are, and how to activate and use them in Dynamics 365 Marketing."
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: d27cf07f-3cef-4fdb-8d12-ffea28ed6f50
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -84,3 +80,6 @@ If you wish to report an issue with a preview feature, please [open a support ti
 
 - For marketing-contacts monitoring, please include: [PREVIEW][MCM]
 - For social posting, please include: [PREVIEW][SOCIAL]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

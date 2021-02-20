@@ -1,15 +1,15 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 02/02/2021
 ms.topic: article
-ms.service: 
-   dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-   dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -68,13 +68,17 @@ Make sure that the following requirements are met:
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
+- The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
+- The feature works only when the administration mode is disabled. For how to update the administration mode, see 
+[Edit properties of an environment](https://go.microsoft.com/fwlink/p/?linkid=2151237)
+
 
 ## Enable AI suggestions for similar cases
 
 Perform the following steps to enable the AI suggestions for similar cases:
 
 1. Sign in to the Customer Service Hub app.
-2. In the **Change area**, select **Service Management** > **Settings**. The **Analytics and insights settings** page appears.
+2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. In the **Premium AI capabilities** section, select** **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
 5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
@@ -91,7 +95,7 @@ Perform the following steps to enable the AI suggestions for similar cases:
 Perform the following steps to enable the AI suggestions for related knowledge articles:
 
 1. Sign in to the Customer Service Hub app.
-2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
+2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
 5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
@@ -107,9 +111,42 @@ The **Model pre-processing status** area displays the following metadata pertain
 - **Knowledge articles:** Displays the number of new or updated published knowledge articles that were processed.
 - **Run frequency:** Display the frequency that is set for the model to run.
 
+### Workflow processes
+
+The AI model and AI configuration entities use the following workflow processes. Make sure these processes are in the activated status. By default, these processes are activated:
+
+- IsPaiEnabled
+- Predict
+- PredictionSchema
+- Train
+- QuickTest
+- BatchPrediction
+- ScheduleTraining
+- SchedulePrediction
+- ScheduleRetrain
+- UnschedulePrediction
+- UnscheduleTraining
+- CancelTraining
+- PublishAIConfiguration
+- UnpublishAIConfiguration
+
+## Service protection limits for AI suggestions
+
+AI suggestions for Case and Knowledge became available as of Oct, 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there is no penalty if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios/patterns to purchase additional capacity in a manner minimally disruptive to those customers. 
+
+The service protection limits for AI suggestions are defined as below. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user license available in the tenant.
+
+| Area    | Limits     | Notes     |
+|----------|------------|-----------|
+| AI suggestions for active cases | 30 cases/month per user license | Each user license adds 30 active cases, where agents can get AI-suggested knowledge articles and similar cases in real-time. |
+| AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real-time.  |
+
 ### See also
 
 [View AI-suggested similar cases and knowledge articles for active cases](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](../omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles.md)  
 [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,16 +20,16 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-
 ---
-
 # Types of fields and field data types
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of columns](/powerapps/maker/data-platform/types-of-fields)
 
+<a name="BKMK_TypesOfFields"></a>
 
-<a name="BKMK_TypesOfFields"></a>   
-## Types of fields  
- The following table contains information about the field types available.  
+## Types of fields
+
+The following table contains information about the field types available.  
 
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  
@@ -65,9 +65,9 @@ You can customize forms (main, quick create, and quick view) and email templates
 
 For example, if an organization operates in multiple areas or countries, you can include multiple locations or countries in an ‘Area of operation’ field. A user can then select one or more locations from the list of available values.
 
-Multi-select option set is only available in read-only grids, editable grids, and forms. Multi-select option set is not supported in: 
-- Workflows, Actions, Dialogs, Roll Ups, charts, and Calc fields.
-- Reports, SLA, and Routing Rule.
+Multi-select option sets can be used with read-only grids, editable grids, and most forms. Multi-select option sets can't be used with:
+- Workflows, business process flows, actions, dialogs, business rules, charts, rollup fields, or calculated fields.
+- Reports, SLA, or routing rules.
 
 Multi-select fields are supported in the following types of forms:
 
@@ -202,3 +202,6 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
   When the image is uploaded, it will be converted to a .jpg format and all downloaded images will also use this format. If an animated .gif is uploaded, only the first frame is saved.  
 
   When an image is uploaded, it will be resized to a maximum size of 144 pixels by 144 pixels. People should resize or crop the images before they upload them so that they will display well using this size. All images are cropped to be square. If both sides of an image are smaller than 144 pixels, the image will be cropped to be a square with the dimensions of the smaller side.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

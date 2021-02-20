@@ -4,12 +4,11 @@ description: FAQs for AI suggestions for cases and knowledge articles in Dynamic
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 11/17/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -32,6 +31,16 @@ It may be caused by one of the following reasons:
 - Only English content is supported. For knowledge articles, the locale must be English.
 - To see suggestions, User Interface Language must be set to English in users' personalization settings.
 
+## I get an error message in Suggestions settings page, “We couldn’t pre-process the case records or knowledge articles”. What should I do?
+
+Check if all the [prerequisites](csw-enable-ai-suggested-cases-knowledge-articles.md#prerequisites) have been met for generating the models. 
+Particularly, 
+
+- Make sure all required [workflow processes](csw-enable-ai-suggested-cases-knowledge-articles.md#workflow-processes) installed with the feature are activated.
+-  Administration mode is disabled in the environment. For how to update the administration mode, see [Edit properties of an environment](https://go.microsoft.com/fwlink/p/?linkid=2151237).
+
+If everything is correctly enabled but the error message still appears on the settings page the next day, contact Microsoft Support.
+
 ## I've added more details about the problem in an active case, but the suggestions are not refreshed at all
 
 You are required to reopen the case form to see new suggestions.
@@ -44,3 +53,6 @@ Make sure that the case is opened in a session tab. To open it in a session tab,
 
 [Enable AI-suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

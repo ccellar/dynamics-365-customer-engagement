@@ -1,18 +1,14 @@
 ---
 title: "Track online behavior (Dynamics 365 Marketing) | Microsoft Docs"
-description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 Marketing"
-keywords: tutorial; tracking; website; redirect URL; behavior analysis
+description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 75e0afc9-b2ea-4983-b831-629c1843af9c
+ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -91,3 +87,6 @@ To see usage statistics about one of your redirect URLs, go to **Marketing** > *
 [Design lead-scoring models](score-manage-leads.md)  
 [Set up lead scoring](set-up-lead-scoring.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

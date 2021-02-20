@@ -1,15 +1,14 @@
 ---
 title: "Create or edit a hosted control | MicrosoftDocs"
 description: "Learn about creating or editing an existing hosted control."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -53,3 +52,6 @@ You create or edit an existing hosted control using the Unified Service Desk Adm
 ### See also  
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)   
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

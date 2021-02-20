@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.service: crm-online
 ms.topic: article
 author: brandonsimons # GitHub ID
-ms.author: susikka
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
@@ -26,3 +26,6 @@ You can perform any of the metadata operations with the Web API that you can per
 [Use the Organization service with Dynamics 365 Customer Engagement (on-premises) metadata](../org-service/use-organization-service-metadata.md)<br />
 [What is Power Apps?](/powerapps/powerapps-overview)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

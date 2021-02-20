@@ -1,17 +1,19 @@
 ---
-title: "Custom event portal localization| MicrosoftDocs"
+title: "Custom event portal localization (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how you can extend event management web application functionality."
-ms.custom:
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 02/06/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - "marketing"
-ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Custom Event Portal Localization
@@ -40,7 +42,7 @@ After doing this, the resulting paragraph should contain the text `this is my ne
 
 The localization files containing labels are not bundled up with the application themselves. They need to be hosted independently. 
 
-If you are using [Dynamics 365 Portal hosting](portal-hosted.md), then the script `DeployToDynamics365Instance.ps1` takes care to put the localization file to the right place. In this case the `localizationEndpoint` environment setting points to the `localization/` path as shown in the `environment.d365.ts` sample environment.
+If you are using [Power Apps portal hosting](portal-hosted.md), then the script `DeployToDynamics365Instance.ps1` takes care to put the localization file to the right place. In this case the `localizationEndpoint` environment setting points to the `localization/` path as shown in the `environment.d365.ts` sample environment.
 
 If you are using [self-hosted](self-hosted.md), then you need to choose a place to host the files (they can be on the same server as the application), and then you should modify `localizationEndpoint` environment setting to point to that location.
 
@@ -48,3 +50,6 @@ If you are using [self-hosted](self-hosted.md), then you need to choose a place 
 
 [Custom Event Portal](event-management-web-application.md)<br />
 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,7 +16,7 @@ ms.custom:
 
 # Voice of the Customer is deprecated
 
-As mentioned in the [deprecation announcement](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/01/voice-of-the-customer-deprecation/) on July 01, 2019, Voice of the Customer is deprecated as of July 01, 2020. This impacts only customers who are using the Voice of the Customer solution for Dynamics 365 apps. Moving forward, [Microsoft Forms Pro](https://formspro.microsoft.com/) will provide seamless integration for surveys within Microsoft Business Applications, including Dynamics 365 and Office 365.
+As mentioned in the [deprecation announcement](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/01/voice-of-the-customer-deprecation/) on July 01, 2019, Voice of the Customer is deprecated as of July 01, 2020. This impacts only customers who are using the Voice of the Customer solution for Dynamics 365 apps. Moving forward, [Microsoft Forms Pro](https://formspro.microsoft.com/) will provide seamless integration for surveys within Microsoft Business Applications, including Dynamics 365 and Microsoft 365.
 
 ## What deprecation means?
 
@@ -28,3 +28,6 @@ We encourage all customers to use Forms Pro for new surveys implementation. Form
 
 For questions about Voice of the Customer and guidance on how to move to Forms Pro, please contact [vocsupport@microsoft.com](mailto:vocsupport@microsoft.com).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

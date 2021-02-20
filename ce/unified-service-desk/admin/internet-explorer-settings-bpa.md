@@ -1,13 +1,12 @@
 ---
 title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.date: 09/03/2020
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 09/03/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
@@ -214,3 +213,6 @@ If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or ea
 [System configurations](../admin/system-configurations-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

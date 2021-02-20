@@ -24,8 +24,7 @@ search.audienceType:
 
 # Choose and configure columns in views
 
-
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)
   
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 
@@ -138,3 +137,6 @@ search.audienceType:
 
 ### See also
 [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

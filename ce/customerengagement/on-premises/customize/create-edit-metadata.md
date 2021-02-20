@@ -22,7 +22,7 @@ search.audienceType:
 
 # Entities, metadata, and the metadata browser
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Entities and metadata in Dataverse](/powerapps/maker/common-data-service/create-edit-metadata)
 
 This topic looks at metadata and how you can use it to create Dynamics 365 Customer Engagement (on-premises) or customize an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] app.  
 
@@ -141,3 +141,6 @@ You can perform the following actions:
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)   
  [Create and edit fields](../customize/create-edit-fields.md) <br/>      
  [Create and design forms](../customize/create-design-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

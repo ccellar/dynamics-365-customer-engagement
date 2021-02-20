@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Download tools from NuGet 
 
-You can download tools used in development from NuGet using the  powershell script found below. These tools include:
+You can download tools used in development from NuGet using the PowerShell script found below. These tools include:
 
 |Tool|NuGet Package|
 |-|-|
@@ -34,7 +34,7 @@ You can download tools used in development from NuGet using the  powershell scri
 
 <!-- This script won't work properly until an official release is shipped. They are all pre-release as of 10/4/2017. To get the pre-release version, add the -PreRelease parameter to the nuget install call.-->
 
-1. In your Windows Start menu, type `Windows Powershell` and open it.
+1. In your Windows Start menu, type `Windows PowerShell` and open it.
 1. Navigate to the folder you want to install the tools to. For example if you want to install them in a `devtools` folder on your D drive, type `cd D:\devtools`.
 1. Copy and paste the following PowerShell script into the PowerShell window and press Enter.
 
@@ -114,3 +114,6 @@ To get the latest version of these tools, repeat these steps.
 [Solution tools for team development](solution-tools-team-development.md)<br />
 [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)<br />
 [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

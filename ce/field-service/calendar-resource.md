@@ -9,14 +9,7 @@ ms.custom:
 ms.service: dynamics-365-customerservice
 ms.date: 09/18/2020
 ms.topic: article
-ms.prod: 
-ms.technology: 
 ms.author: daclar
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -39,3 +32,6 @@ Once you’ve created a work hours template, you need to assign it to resources 
 ### See also
 
  - [Apply a calendar to a resource in Dynamics 365 Project Service Automation](https://docs.microsoft.com/dynamics365/project-service/apply-calendar-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

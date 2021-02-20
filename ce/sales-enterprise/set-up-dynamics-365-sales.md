@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Set up Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to get and set up Dynamics 365 Sales."
 ms.date: 07-13-2020
@@ -12,13 +12,18 @@ manager: annbe
 
 # Set up Dynamics 365 Sales
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 To set up Dynamics 365 Sales, you must complete these general steps.
 
 1. Buy a subscription, or sign up for a free 30-day trial subscription.
 
-    1. To try Dynamics 365 Sales, go to the [Dynamics 365 trials](https://trials.dynamics.com/) site, select **Sales**, and follow the instructions.
+    1. To try Dynamics 365 Sales, go to the [Dynamics 365 trials](https://dynamics.microsoft.com/get-started/free-trial/?appname=sales) site, and under the **Sign up for a free trial** section, select **Sign up now**, and follow the instructions.  
 
-    2. To buy a subscription, go to your **Office 365 admin center** &gt; **Billing** &gt; **Purchase Services** and then select **Dynamics 365 Sales** and **Buy Now**. You can also get Sales from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#Sales).
+        >[!NOTE]
+        > You can also connect with a Dynamics 365 sales representative to get demo of the product, trail, and many more. Under the **Contact a sales representative** section, select **Contact us**. In the **Request a call back** form, fill in the required information and select **Send request**. Soon, one of the Dynamics 365 sales representative will contact you to assist with the necesary information.
+
+    2. To buy a subscription, go to your **Microsoft 365 admin center** &gt; **Billing** &gt; **Purchase Services** and then select **Dynamics 365 Sales** and **Buy Now**. You can also get Sales from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#Sales).
 
         Your organization's subscription to Dynamics 365 Sales in Dynamics 365 provides access to the Microsoft 365 admin center through a global administrator account. The global administrator manages every aspect of the subscription and may add subscriptions to other Microsoft Online Services.
 
@@ -87,3 +92,6 @@ Every user in the organization must have the **Sales, Enterprise app access** ro
 ### See also
 [Overview of Sales and Sales Hub](overview.md)  
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

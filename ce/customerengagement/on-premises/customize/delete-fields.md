@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Delete fields
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Delete fields in Power Apps](/powerapps/maker/common-data-service/delete-fields)
 
 <a name="BKMK_DeletingFields"></a>   
  
@@ -32,3 +32,6 @@ search.audienceType:
  ### See also
 
  [Delete custom entities](delete-custom-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

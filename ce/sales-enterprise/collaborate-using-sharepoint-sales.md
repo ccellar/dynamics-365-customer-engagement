@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Collaborate using SharePoint 
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Manage common document types, such as Word, Excel, and PowerPoint and create folders to save and manage those documents that are seamlessly stored in SharePoint from within a model-driven app. 
 
 > [!NOTE]
@@ -119,3 +121,6 @@ When you select one or more documents in the Documents list, you can take the fo
 ### See also
 
 [SharePoint, OneNote, and OneDrive integration with Common Data Service](/powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

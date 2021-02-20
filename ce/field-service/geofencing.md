@@ -1,37 +1,29 @@
 ---
-title: "Geofencing for Field Service Mobile | MicrosoftDocs"
+title: "Geofencing for Field Service Mobile (Xamarin) | MicrosoftDocs"
+description: Learn about how to setup and use geofencing for Field Service Mobile
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/02/2020
+ms.date: 10/26/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Geofencing for Field Service Mobile 
+# Geofencing for Field Service Mobile (Xamarin)
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 
 In Dynamics 365 Field Service, the default use case for geofencing is to create a circular geofence around a work order's location and compare this to the changing location of field technicians as measured by their mobile devices running the Field Service Mobile app. When a work order geofence is crossed or "broken" by a field technician, a **geofence event** record is created and the geofence status is changed from **outside** to **inside**, indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
 
-In this topic, we will look at how to configure and use geofences by exploring:
+In this article, we will look at how to configure and use geofences by exploring:
 
 - setting distance radius
 - enabling and testing field technician location tracking 
@@ -52,7 +44,7 @@ In this topic, we will look at how to configure and use geofences by exploring:
 
 ## Step 1. Verify geofence solutions are installed
 
-Go to **Settings > Solutions** and make sure the 3 following geofence solutions are there:
+Go to **Settings > Solutions** and make sure the three following geofence solutions are there:
 
 - **Geofence Alerts**
 - **Geofence Management**
@@ -67,6 +59,7 @@ Go to **Settings > Processes** and **Activate** the following processes. These p
 
 - DeleteGeofenceWhenBookingIsCompletedOrCanceled
 - GenerateGeofenceWhenBookingIsCreated
+- Update Resource Location from Resco Audit
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofence processes](./media/mobile-geofence-activate-processes.png)
@@ -85,7 +78,7 @@ Enter the mobile project that holds your Field Service Mobile customizations.
 
 Next, go to the **Auditing** section of the project. Here you can choose which actions taken on the Field Service Mobile app are recorded, and if that action should send related location data to the server. 
 
-Be sure the following 3 boxes are checked: 
+Be sure the following three boxes are checked: 
 
 - **Enable Auditing** 
 - **Include GPS Position** 
@@ -94,7 +87,7 @@ Be sure the following 3 boxes are checked:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling gps tracking for field service mobile](./media/mobile-geofence-enable-auditing.png)
 
-More specific auditing can be configured based on your business needs. You can track the application’s state events -- whether the application is running, terminated, paused (put to background), or resumed (put back to foreground). If you want to audit the movement, you can use the track GPS position changes, where you can set the delay and distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
+More specific auditing can be configured based on your business needs. You can track the application’s state events--whether the application is running, terminated, paused (put to background), or resumed (put back to foreground). If you want to audit the movement, you can use the track GPS position changes, where you can set the delay and distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
  
 ## Step 4. Enable background location tracking 
 
@@ -106,7 +99,7 @@ More specific auditing can be configured based on your business needs. You can t
 
 This allows a technician's location data stream to be sent to Dynamics 365 Field Service, which surfaces a technician’s location on the schedule board.
 
-3. Choose **I Confirm this Organization has the appropriate license**. Location tracking does not require an additional license and is inlcuded with Field Service Mobile.
+3. Choose **I Confirm this Organization has the appropriate license**. Location tracking does not require an additional license and is included with Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of disclamer](./media/mobile-geofence-new-disclaimer.png)
@@ -216,7 +209,7 @@ Finally, we can test "breaking" a geofence, meaning a bookable resource travels 
 
 This is typically done two ways.   
 
-The first way is to travel within the geofenced area and log in and synchronize the Field Service Mobile application. 
+The first way is to travel within the geofenced area and sign in and synchronize the Field Service Mobile application. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of current location overlapping work order location](./media/mobile-geofence-arrive.png)
@@ -244,14 +237,14 @@ Additionally, this will change the related geofence **Geotracked Record Status**
 
 ## Use push notifications with geofencing
 
-If you would like the bookable resource to receive push notifications to change the booking status as he or she enters and leaves a geofence (in other words, when a geofence event record is created), you should configure push notifications and activate the processes included in the Geofence Alerts solution.
+If you would like the bookable resource to receive push notifications to change the booking status as they enter and leaves a geofence (in other words, when a geofence event record is created), configure push notifications and activate the processes included in the Geofence Alerts solution.
 
-First, configure push notifications for Field Service Mobile by going to the topic on [push notifications](./mobile-push-notifications.md).
+First, configure push notifications for Field Service Mobile by going to the article on [push notifications](./mobile-push-notifications.md).
 
 Next, go to **Settings > Processes** and activate the following processes: 
 
-1. Remind to change status upon arrival
-2. Remind to change status upon leaving
+1. *Remind to change status upon arrival*
+2. *Remind to change status upon leaving*
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofence and push notification processes](./media/mobile-geofence-activate-reminders.png)
@@ -269,3 +262,6 @@ Next, go to **Settings > Processes** and activate the following processes:
 - In order to synchronize location data with the server, Field Service Mobile app users (field technicians) will need to consent to sharing GPS data. A message will appear after a geofence is active. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

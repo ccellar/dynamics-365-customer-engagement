@@ -1,15 +1,14 @@
 ---
 title: "HyperLink in Unified Service Desk | MicrosoftDocs"
 description: 
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -33,3 +32,6 @@ The `<HyperLink>` element does not define an element on the web application's us
 ### See also  
  [WebDDA](../unified-service-desk/web-dda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

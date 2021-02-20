@@ -6,18 +6,16 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 08/05/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
-  D365CE
-  D365CS
-  
+  - D365CE
+  - D365CS
 ---
 
 # Search resource availability and create bookings for requirement groups
@@ -564,3 +562,6 @@ response.Dump();
 |[Dynamics 365 application ideas](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad)| Use this portal to contribute product feedback and ideas for resource scheduling. |
 |[Community forum](https://community.dynamics.com/365/fieldservice)| Use the community forum to ask questions, find answers, and see upcoming events. |
 |[Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/?s=Resource+Scheduling)| Read the Dynamics 365 blog for release notes and posts from the product team.   |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

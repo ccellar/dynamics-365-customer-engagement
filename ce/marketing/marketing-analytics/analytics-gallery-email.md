@@ -1,7 +1,6 @@
 ---
-title: "Email marketing report for Dynamics 365 Marketing | Microsoft Docs"
+title: "Email marketing report for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This email marketing analytics report provides you interaction and conversion leaderboards, automation status, block and failure analysis, and more."
-keywords: Email marketing report
 ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,9 +8,8 @@ ms.custom:
 ms.topic: article
 author: cabeln
 ms.author: cabeln
-manager: 
+manager: shellyha
 ms.reviewer: alfergus
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -122,3 +120,6 @@ This important report shows all the sending failures and blocked emails that occ
 ![Email marketing block and failure analysis](media/EmailMarketing/EmailMarketing-(8)EmailBlock-FailureAnalysis.png "Email marketing block and failure analysis")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

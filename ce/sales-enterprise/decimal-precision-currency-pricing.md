@@ -8,9 +8,18 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-product
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Decimal precision in currency and pricing
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 Decimal precision plays an important role in determining the number of decimal places to be used with field type **Currency** in Dynamics 365 Sales. It also affects rounding in calculations.
 
@@ -82,3 +91,6 @@ To apply this precision setting to any of the currency field in the system, go t
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
 [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)  
 [Troubleshooting the Product entity](ts-products.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 05/08/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -67,3 +66,6 @@ Each role in the scheduling experience is expected to perform a set of actions. 
 ### See also  
 
 [Create or edit a security role to manage access](../admin/create-edit-security-role.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

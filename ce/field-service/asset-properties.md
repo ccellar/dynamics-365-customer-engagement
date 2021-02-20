@@ -6,22 +6,13 @@ ms.custom:
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -35,13 +26,15 @@ Asset properties allow you to record information about assets stored in Dynamics
 
 Properties are flexible, and can be defined in multiple ways, as we'll look at in this article.
 
+For more information, see this video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Create and configure asset properties](https://youtu.be/dhruNqBXMgw) 
+
 ## Prerequisites
 
 - You'll need one or more existing assets in Field Service. For more information, see the article on [customer assets](configure-set-up-customer-assets.md).
 
-## Create and assign asset categories
+## Create and assign asset categories (optional)
 
-First, create an **Asset Category**. In our example, we're using the category **Laptop - high performance**.
+First, create an **Asset Category** to group your assets. This is optional; if your organization doesn't use asset categories, go to the next step to create property definitions. In our example, we're using the category **Laptop - high performance**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a customer asset category.](./media/assets-categories.png)
@@ -185,3 +178,6 @@ The property you added will now show in the list of eligible properties for this
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the property log on a customer asset.](./media/assets-properties-maintain-new-values-callout.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

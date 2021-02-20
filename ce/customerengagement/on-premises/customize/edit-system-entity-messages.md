@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Edit system entity messages
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Edit system entity messages in Power Apps](/powerapps/maker/common-data-service/edit-system-entity-messages)
 
 <a name="BKMK_EditSystemEntityMessages"></a>   
 
@@ -40,3 +40,6 @@ search.audienceType:
  
 ### See also
 [Create or edit an entity](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

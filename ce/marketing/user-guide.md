@@ -1,18 +1,14 @@
 ---
 title: "User Guide (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 Marketing"
-keywords: user guide
+description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 693371ae-c2a0-496c-900e-c1f96416298b
+ms.topic: hub-page
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -46,7 +42,7 @@ search.app:
 <li><a href="create-marketing-email.md" data-raw-source="[Create a marketing email and go live](create-marketing-email.md)">Create a marketing email and go live</a></li>
 <li><a href="create-simple-customer-journey.md" data-raw-source="[Create a simple customer journey with email messaging](create-simple-customer-journey.md)">Create a simple customer journey with email messaging</a></li>
 <li><a href="create-landing-page.md" data-raw-source="[Create a landing page with a form](create-landing-page.md)">Create a landing page with a form</a></li>
-<li><a href="create-interactive-customer-journey.md" data-raw-source="[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)">Create an interactive customer journey with triggers and signup</a></li>
+<li><a href="create-interactive-customer-journey.md" data-raw-source="[Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)">Create an interactive customer journey with conditions and signup</a></li>
 <li><a href="set-up-lead-scoring.md" data-raw-source="[Set up automatic lead generation and scoring](set-up-lead-scoring.md)">Set up automatic lead generation and scoring</a></li>
 <li><a href="set-up-subscription-center.md" data-raw-source="[Set up subscription lists and subscription centers](set-up-subscription-center.md)">Set up subscription lists and subscription centers</a></li>
 <li><a href="generate-activities-from-customer-journey.md" data-raw-source="[Generate activities from a customer journey](generate-activities-from-customer-journey.md)">Generate activities from a customer journey</a></li>
@@ -109,3 +105,6 @@ search.app:
 
 </td></tr>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -203,3 +202,6 @@ Perform the following steps before you upgrade a solution:
 ### See also
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

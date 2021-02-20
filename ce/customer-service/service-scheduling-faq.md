@@ -6,17 +6,16 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 09/16/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
- D365CE
-  D365CS
+  - D365CE
+  - D365CS
 ---
 
 #  Service scheduling FAQ
@@ -34,12 +33,13 @@ The new scheduling experience is available to you if you have one of the followi
 
 ## Is the new scheduling experience automatically available with the next Dynamics 365 Customer Service upgrade?
 
-Scheduling in the Customer Service Hub is a customer-driven update. You need to avail and enable the new service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. 
+Scheduling in the Customer Service Hub is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the scheduling experience](basics-service-service-scheduling.md#set-up-the-service-scheduling-experience)
 
 
 ## Is manual selection of resources supported in a service activity in the new scheduling experience?
+
 While creating a service activity, manual selection of resources is not supported in the new scheduling experience in Customer Service Hub.
 
 
@@ -48,3 +48,6 @@ While creating a service activity, manual selection of resources is not supporte
 [Service Scheduling Guide](basics-service-service-scheduling.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

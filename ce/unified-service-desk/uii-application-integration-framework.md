@@ -1,15 +1,14 @@
 ---
 title: "UII Application Integration Framework | MicrosoftDocs"
 description: "Learn information about UII Application Integration Framework that enables the integration and automation of applications."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 11/29/2016
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 11/29/2016
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -62,3 +61,6 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
  [UII Hosted Applications](uii-hosted-applications.md)   
  [Extend Unified Service Desk](extend-unified-service-desk.md)   
  [Session management in Unified Service Desk](session-management-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

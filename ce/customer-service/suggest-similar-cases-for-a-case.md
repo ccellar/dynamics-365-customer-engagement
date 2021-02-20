@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 08/14/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -169,4 +168,7 @@ You can view the similar case suggestions in the Related section of the Customer
 
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)  
-[Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
+[Configure Customer Service](configure-cs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

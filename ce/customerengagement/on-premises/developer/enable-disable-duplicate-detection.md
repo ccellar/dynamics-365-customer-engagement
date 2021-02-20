@@ -17,8 +17,8 @@ helpviewer_keywords:
   - enabling duplicate detection, rules must be published before running
 ms.assetid: B8CD2072-F254-4BA8-9087-79EC79DFE48C
 caps.latest.revision: 14
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
@@ -93,3 +93,6 @@ Delete all published rules in the system to disable duplicate detection globally
 [Duplicate Detection](detect-duplicate-data-for-developers.md)  
 [Running Duplicate Detection](run-duplicate-detection.md)   
 [Duplicate Rule entities](duplicaterule-entities.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -23,7 +23,7 @@ search.audienceType:
 
 # Define status reason transitions for the Case or custom entities
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define status reason transitions for the Case or custom entities](/powerapps/maker/common-data-service/define-status-reason-transitions)
 
 You can specify status reason transitions for the Incident (**Case**) entity or a custom entity.  
   
@@ -71,3 +71,6 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
 ### See Also  
  [Create and edit fields](../customize/create-edit-fields.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

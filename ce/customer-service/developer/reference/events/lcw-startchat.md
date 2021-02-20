@@ -1,0 +1,35 @@
+---
+title: "lcw startChat | MicrosoftDocs"
+description: lcw startChat (Omnichannel for Customer Service JavaScript API reference)
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.topic: article
+ms.service: dynamics-365-customerservice
+---
+# lcw:startChat (Omnichannel for Customer Service JavaScript API reference)
+
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+
+This event is triggered when a chat is started.
+
+Lcw:startChat is raised when the related startChat() SDK method is called.
+
+When a customer starts a chat, a call is made to the startChat() SDK method. This event is then raised when the startChat() SDK method is called.
+
+## Example
+
+```javascript
+window.addEventListener("lcw:startChat", function handleLivechatStartedEvent(){
+    // Handle the live chat started event
+});
+```
+
+### See also
+
+[lcw:ready](lcw-ready.md)<br />
+[lcw:error](lcw-error.md)<br />
+[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

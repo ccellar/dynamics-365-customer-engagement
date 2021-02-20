@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Develop customized IoT solutions in Connected Customer Service
@@ -35,3 +30,6 @@ To enable the first scenario, the following capabilities are supported:
 - Send remote commands to IoT devices, for example after diagnosing a problem to correct a malfunctioning device 
 
 - Analyze incoming device data, and displaying aggregate, trend and other metrics in custom dashboards 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

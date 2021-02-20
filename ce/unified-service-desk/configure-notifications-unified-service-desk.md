@@ -1,15 +1,14 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring notifications in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -298,3 +297,6 @@ As we are checking for maximum number of sessions on the creation of a new sessi
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)
   
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

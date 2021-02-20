@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 11/27/2019
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -53,3 +52,6 @@ Search for relevant knowledge articles to quickly resolve a case. For more infor
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

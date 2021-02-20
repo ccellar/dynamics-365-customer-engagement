@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Authorize API connection between Dynamics 365 and Azure IoT
@@ -51,3 +46,6 @@ Finally, select **Authorize**, **Save**, and use your Dynamics 365 credentials t
 > ![Screenshot of authorizing the subscription](media/cs-iot-hub-api-connection-authorize.png)
 
 Congratulations! You are now ready to pass data between Azure IoTHub and Dynamics 365 to use Connected Customer Service.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

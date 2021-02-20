@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 02/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 
@@ -50,3 +45,6 @@ You'll need a Dynamics 365 Customer Service tenant that you can connect your IoT
      
 New to Customer Service and need a tenant? No worries. [Sign up for a free trial for development purposes](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

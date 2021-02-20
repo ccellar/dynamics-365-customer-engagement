@@ -33,7 +33,7 @@ A [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] competition includ
   
 3. Optionally, add a photo to your post or turn your post into a *BAM post*—a special type of post that runs a short animation to celebrate an achievement.  
   
-4. To publish your update, click **Submit Post**.  
+4. To publish your update, select **Submit Post**.  
   
    All players in the selected game will see your post in their **Smack Talk** feed.  
   
@@ -42,3 +42,6 @@ A [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] competition includ
  [Overview for players and fans in Gamification](for-players-fans.md)  
  [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)  
  [See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: "Open a Power Apps customization window (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to open a Power Apps customization window in Dynamics 365 Marketing"
+description: "Learn how to open a Power Apps customization window in Dynamics 365 Marketing."
 ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -10,8 +10,6 @@ ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -34,3 +32,6 @@ Most types of customizations require you to work in the **Power Apps** customiza
     ![The Power Apps customization window](media/calendar-powerapps.png "The Power Apps customization window")
 
 For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

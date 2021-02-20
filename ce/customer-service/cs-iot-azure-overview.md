@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 
@@ -38,3 +33,6 @@ With [Power Automate templates](https://preview.flow.microsoft.com/templates/), 
 - [What is Azure IoT Central?](https://docs.microsoft.com/azure/iot-central/core/overview-iot-central)
 - [Tour of Azure IoT Central user interface](https://docs.microsoft.com/azure/iot-central/overview-iot-central-tour)
 - [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/azure/iot-central/core/quick-deploy-iot-central)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

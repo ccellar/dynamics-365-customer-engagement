@@ -1,15 +1,14 @@
 ---
 title: "Use UII adapters to interact with external and web applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use UII adapters to interact with your external and web applications without having access to the application’s source code in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -61,3 +60,6 @@ You can use [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inte
  [UII adapters](../unified-service-desk/uii-adapters.md)   
  [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)   
  [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Create and edit global option sets (picklists)
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create an Option set](/powerapps/maker/common-data-service/custom-picklists)
 
 An option set is a type of field that can be included in an entity. It defines a set of options. When an option set is displayed in a form it uses a drop-down list control. When displayed in Advanced Find it uses a picklist control. Sometimes option sets are called picklists by developers.  
   
@@ -124,3 +124,6 @@ In the **Options** section you can create, edit, delete, and change the order in
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md) <br/>
  [Create and edit fields](../customize/create-edit-fields.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

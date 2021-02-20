@@ -1,18 +1,14 @@
 ---
 title: "Customer-journey tiles (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 Marketing"
-keywords: customer journey; tile; reference; pipeline
+description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 Marketing."
 ms.date: 10/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
-ms.assetid: 57e1c0f7-a12e-49ff-9110-0dcaae176855
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -85,7 +81,7 @@ The content that your customer journey delivers to contacts as they traverse the
     
   With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form. 
 
-- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
+- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Power Apps portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
 
   In the new designer, the same can be achieved by adding a Marketing page entity as a dependency to an email (in the properties of the email tile). 
 
@@ -103,3 +99,6 @@ The content that your customer journey delivers to contacts as they traverse the
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

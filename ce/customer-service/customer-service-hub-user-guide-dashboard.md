@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -32,7 +31,7 @@ Watch this video to learn more about dashboards in the Customer Service Hub:
 
 
 ## Interactive experience dashboards overview  
-The interactive dashboards come in two flavors: 
+The interactive dashboards come in two flavors:
 
 - Multi-stream dashboards 
 - Single-stream dashboards  
@@ -201,3 +200,6 @@ In the streams, the color is depicted using the thin vertical line to the left o
   
 
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

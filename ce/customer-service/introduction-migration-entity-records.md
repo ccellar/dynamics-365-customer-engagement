@@ -1,13 +1,12 @@
 ---
 title: "Introduction to migration of entity records (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/11/2019
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -27,7 +26,7 @@ To learn more, see [Understand the new scheduling experience](basics-service-ser
 
 Consider the following scenarios before you begin migration:
 
-- If you haven’t been using the legacy scheduling experience and you are setting it up for the first time in the Customer Service Hub app, see [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience).
+- If you haven’t been using the legacy scheduling experience and you are setting it up for the first time in the Customer Service Hub app, see [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-service-scheduling-experience).
 
     > [!Note]
     > As an admin, you should configure all your entity records in the new experience manually from the user interface. You must follow the order as given in the [Scheduling scenario](basics-service-service-scheduling.md#scheduling-scenario) while configuring entity records in the new scheduling experience.
@@ -59,3 +58,6 @@ After successful installation, you can access scheduling in the Customer Service
 [Plan your migration](plan-migration.md)
 
 [Migrate entity records](migrate-entity-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

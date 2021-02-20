@@ -107,7 +107,7 @@ namespace PowerApps.Samples
                 }
                 else
                 {
-                    const string UNABLE_TO_LOGIN_ERROR = "Unable to Login to Common Data Service";
+                    const string UNABLE_TO_LOGIN_ERROR = "Unable to Login to Dataverse";
                     if (service.LastCrmError.Equals(UNABLE_TO_LOGIN_ERROR))
                     {
                         Console.WriteLine("Check the connection string values in cds/App.config.");
@@ -345,3 +345,6 @@ namespace PowerApps.Samples
 ### See also  
  [User and Team Entities](user-team-entities.md)   
  [Sample: Disable a User](sample-disable-user.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

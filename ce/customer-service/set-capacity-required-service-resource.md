@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -93,3 +92,6 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 ### See also  
  [Create or edit a selection rule](../customer-service/create-simple-selection-rule.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # IoT - Parent IoT Alerts workflow
@@ -32,3 +27,6 @@ The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an 
 |----------|----------|--------------|-------------|-----------------|  
 |TimespanSeconds|Edm.Int32|false||Determines the time window to consider when parenting (or suppressing) an alert, from 60 to 180 seconds.|
 | | | | | |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -21,6 +21,8 @@ search.audienceType:
 ---
 # Create or edit web resources to extend an app
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit model-driven app web resources to extend an app](/powerapps/maker/model-driven-apps/create-edit-web-resources)
+
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
 > [!TIP]
@@ -155,3 +157,6 @@ Web resources are virtual files in multiple formats, such as html files, [!INCLU
 [Create and design forms](create-design-forms.md) <br />
 [Get started with customization](../customize/getting-started-customization.md) <br /> 
 [Web resources for Customer Engagement](../developer/web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

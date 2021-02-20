@@ -1,5 +1,6 @@
 ---
 title: "Enable additional languages (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn how to enable languages ni Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -45,3 +46,6 @@ Before you can enable a language, you must first install the language pack. More
 
 [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
 [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

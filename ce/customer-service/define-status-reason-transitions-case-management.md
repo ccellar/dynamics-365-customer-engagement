@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -55,3 +54,6 @@ If you’re in charge of incident management for an organization, it’s importa
 ### See also  
  [Define status reason transitions](../customerengagement/on-premises/customize/define-status-reason-transitions.md)   
  [Create or edit entity fields](../customerengagement/on-premises/customize/create-edit-fields.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

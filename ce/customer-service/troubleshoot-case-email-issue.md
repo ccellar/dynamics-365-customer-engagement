@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/04/2018
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -37,7 +36,10 @@ This is an expected behavior.
 
 ### Resolution
 
-Migrate your rule from the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md).
+Perform the following steps as a workaround:
+
+1. Migrate your rule from the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md).
+2. Follow the information in [Configure advanced settings for rules](automatically-create-update-records.md#configure-advanced-settings-for-rules) to manage emails from unknown senders.
 
 ## Incoming email is not being converted to a case
 
@@ -138,3 +140,6 @@ You must validate the configuration and validation steps given in the following 
  
 ### See also
 [Automatically create a case from an email](automatically-create-case-from-email.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

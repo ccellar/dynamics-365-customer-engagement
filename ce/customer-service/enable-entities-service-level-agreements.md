@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 09/07/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -77,3 +76,6 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
 ### See also
 
  [Define service level agreements](../customer-service/define-service-level-agreements.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

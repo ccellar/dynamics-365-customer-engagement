@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -172,3 +171,6 @@ There are a few steps to follow to add a timer to track time against enhanced SL
 
 
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

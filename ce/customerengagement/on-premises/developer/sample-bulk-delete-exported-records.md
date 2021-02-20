@@ -27,7 +27,7 @@ search.audienceType:
 
 # Sample: Bulk delete exported records
 
-This sample shows how to perform a bulk deletion of records that were previously exported from Common Data Service by using the **Export to Excel** option. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/BulkDeleteExported).
+This sample shows how to perform a bulk deletion of records that were previously exported from Dataverse by using the **Export to Excel** option. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/BulkDeleteExported).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -58,3 +58,6 @@ The `PerformBulkDeleteBackup` method performs the main bulk delete operation on 
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -8,6 +8,12 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-activitypointer
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 
@@ -171,3 +177,6 @@ Here are some suggestions about how to use activities to your organization's bes
 ### See also
 
 [Work with activities in the Kanban view](activity-kanban-view.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

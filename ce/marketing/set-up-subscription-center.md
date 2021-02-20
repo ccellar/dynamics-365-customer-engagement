@@ -1,17 +1,14 @@
 ---
 title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing"
-ms.date: 06/11/2020
+description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing."
+ms.date: 01/29/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -23,18 +20,21 @@ search.app:
 
 # Set up subscription lists and subscription centers
 
-A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
+A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization. All marketing email messages that you create by using Dynamics 365 Marketing must include a link to a subscription center. Marketing email messages will fail the error check if you try to go live with a message that lacks this link.
 
-All marketing email messages that you create by using Dynamics 365 Marketing must include a link to a subscription center, and they will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
+There are two reasons for requiring a subscription center link in all marketing email messages:
 
-- **Legal requirements**: Many countries/regions have laws that require all marketing email messages to include an unsubscribe link.
-- **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages, and might remove those that don't include an unsubscribe link.
+- **Legal requirements**: Many countries and regions have laws that require all marketing email messages to include an unsubscribe link.
+- **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages, and might remove messages that don't include an unsubscribe link.
 
 All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and Dynamics 365 Marketing will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
 
 Each subscription list exists as a static marketing list in Dynamics 365, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
 
 The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that Dynamics 365 Marketing always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. You can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register.
+
+> [!IMPORTANT]
+> Subscription lists are managed at the *contact* level. If multiple contacts share the same email address, only the specific contact who opted out will stop receiving communications. Other contacts using the same email address will continue to receive communications. If you require opt-outs to be processed at the email level, you will need to create custom processes. More information: [Manage subscriptions at an email level](set-up-subscription-center.md#manage-subscriptions-at-an-email-level).
 
 ## How and where to publish your subscription centers
 
@@ -176,7 +176,7 @@ To specify a subscription center in the content settings:
 
 1. Select **Next** to continue.
 
-1. Select the **Property** radio button. .    
+1. Select the **Property** radio button.
     ![Choose a specific marketing page](media/assist-edit-subcenter-2.png "Choose a specific marketing page") 
 
     Note the code shown at the bottom of the dialog&mdash;this is the actual expression that you have built based on your choices so far
@@ -230,13 +230,13 @@ More information: [Create a marketing email and go live](create-marketing-email.
 
 ## Test your subscription center
 
-To test your subscription center, you must send yourself a subscription-center link in a live email from a live customer journey. The subscription center won't work correctly if you open its URL directly, or click a link sent in a test message.
+To test your subscription center, you must send yourself a subscription-center link in a live email from a live customer journey. The subscription center won't work correctly if you open its URL directly, or select a link sent in a test message.
 
 Subscription centers only work when they "know" who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey. Links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
 
 If you open a subscription center by opening its URL directly (or by using  a link sent in a test message), an error message will display indicating that the system is not able to verify your contact information.
 
-To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a very limited segment). When you receive the message, select the subscription center link and test its features.
+To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a limited segment). When you receive the message, select the subscription center link and test its features.
 
 ## View and edit which lists each contact subscribes to
 
@@ -273,7 +273,56 @@ To add displayed contacts to a subscription list or static marketing list:
 
 1. A flyout opens. Use it to search for and select each list that you want to add the selected contact(s) to. The select **Add** to add the contacts and close the flyout.
 
+## Manage subscriptions at an email level
 
+Depending on your Marketing setup and the region in which you operate, you may need to process opt-outs at an email level. The following are ways to process email level opt-outs:
+
+### Don’t allow users to create multiple contacts with the same email address
+
+If an email address is linked to existing contact, you can prohibit users from creating a new contact with the same email address. Limiting each email address to a single contact eliminates duplication, ensuring that opt-outs apply to the correct contact every time.
+
+You can apply duplicate detection rules [to your entire organization](business-management-settings.md) (**Settings** > **Advanced** > **Business Management** > **Duplicate detection**). This function is enabled by default. Dynamics 365 includes duplicate detection rules for accounts and contacts. The email address rule specifically detects, “*Contacts where the same email address is found.*” If duplicate detection is enabled, duplicates are detected when:
+
+- **A record is created or updated:** The system checks for duplicates when a user enters or updates records.
+- **During data import:** When you use the Import Data wizard to load contacts or accounts, the wizard detects duplicate records.
+
+The global duplicate detection rule only applies to the “Email” field.
+
+> [!div class="mx-imgBorder"]
+> ![Create a duplicate detection rule](media/subscription-duplicate-detection.png)
+
+If you need to create additional duplicate detection rules, for example, for an “Email Address 2” field, you can add another rule by following the instructions in [this Power Platform guide](https://docs.microsoft.com/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean).
+
+> [!NOTE]
+> Changing or deleting system rules may cause duplicate detection to not function as expected.
+
+> [!NOTE]
+> When Business Units are enabled, the Business Unit that owns the form is included in the matching criteria. This means that forms could create contacts with the same email in a different Business Unit. If you require unique email addresses per org, turn the Business Unit feature off.
+
+> [!NOTE]
+> When configuring a contact matching strategy, it makes sense to keep matching on the email only (default) for forms and events matching strategies.
+
+### Run bulk system jobs to detect email duplication
+
+As some changes to the customer database are not captured by the global duplicate detection rules (for example, when merging contact records or activating them), you can check for duplicates periodically using [scheduled jobs](https://docs.microsoft.com/power-platform/admin/run-bulk-system-jobs-detect-duplicate-records). To create a scheduled job, go to the Power Platform admin center then select **Settings** > **Data management** > **Duplicate detection jobs**. Create a new job, add the email address fields you want to check, and define the schedule.
+
+> [!div class="mx-imgBorder"]
+> ![Create a scheduled job](media/subscription-scheduled-job.png)
+
+After detecting duplicate email records, you can choose a master record and merge, delete, or edit other duplicates.
+
+If you need to further customize duplicate email processing, refer to the [Detect duplicate data using code](https://docs.microsoft.com/powerapps/developer/data-platform/detect-duplicate-data-with-code) article.
+
+### Update consent for all contacts sharing the same email address once one contact has opted out
+
+You can create a marketing form to capture your customers’ preferences. You can configure the form to collect data, but not to create new contacts or update existing contacts at the time of submission. This feature provides you with flexibility to decide how to handle the form submission entity before creating or updating contacts.
+
+You can then set up a workflow that will extract the email address from the submission and query the database with it to get the list of contacts with the same email address and update their preferences.
+
+> [!NOTE]
+> The **No update** setting only works with landing page form types.
+
+For more information, see [Mapping form data to entities with custom Workflows](entity-mapping.md) and other documents in the [Developer guide](developer/marketing-developer-guide.md).
 
 ### See also
 
@@ -283,3 +332,6 @@ To add displayed contacts to a subscription list or static marketing list:
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

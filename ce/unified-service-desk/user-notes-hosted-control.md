@@ -1,15 +1,14 @@
 ---
 title: "User Notes (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the User Notes type of hosted control in Unified Servoce Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -126,3 +125,6 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

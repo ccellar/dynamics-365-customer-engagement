@@ -11,6 +11,9 @@ manager: annbe
 ---
 
 # Provision your Dynamics 365 Sales Professional environment
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Congratulations on the purchase of the Sales Professional application. 
 
 Before you can start using the Sales Professional application you need to:
@@ -114,3 +117,6 @@ To install the Sales Professional solution on a Dynamics 365 environment
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Overview of admin settings](admin-settings-overview.md)  
 [User Guide (Dynamics 365 Sales Professional)](user-guide.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,6 @@
 ---
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
-keywords: administration; sample data
 ms.date: 08/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -11,8 +10,6 @@ ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -88,6 +85,8 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_MktPageTemplates
 1. MicrosoftDynamics_MktEvtMgmtLink_patch
 1. MicrosoftDynamics_MktEvtMgmtLink
+1. MicrosoftDynamics_MktOrchestrationCompatModule
+1. MicrosoftDynamics_MarketingOrchestrationModule
 1. LinkedInLeadGenIntegration_patch
 1. LinkedInLeadGenIntegration
 1. MicrosoftDynamics_MktLeadManagement_patch
@@ -108,3 +107,6 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_HealthChecker
 
 If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,26 @@
 ---
-title: Overview of the UCI-based Scheduling Service | Microsoft Docs
-description: Overview of the Unified Client Interface-based Scheduling Service in Dynamics 365 Customer Service.
+title: Overview of the Scheduling Service | Microsoft Docs
+description: Overview of the Unified Interface-based Scheduling Service in Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
-  D365CE
-  D365CS
-  
+  - D365CE
+  - D365CS
 ---
 
-# UCI-based service scheduling overview
+# Service scheduling overview
 
-Unified Client Interface (UCI)-based Service Scheduling will replace the Legacy Service Scheduling experience by 12/01/2020.   
+Unified Interface-based Service Scheduling will replace the Legacy Service Scheduling experience by 12/01/2020.   
 
 The following topics contain information about legacy Service Scheduling features: 
 
@@ -61,3 +59,6 @@ The following topics contain information about legacy Service Scheduling feature
 
 
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,10 +4,9 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 12/03/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -21,11 +20,13 @@ search.app:
 
 # Automatically create or update records in Customer Service Hub
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you will learn about creating rules for automatically creating records for cases from incoming emails.
 
 ## Set up rules for creating or updating records automatically
 
-Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Common Data Service platform records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into the Common Data Service platform with the help of *record creation and update rules*.
+Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.
 
  A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the records.
 
@@ -106,7 +107,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 1. On the **Automatic record creation and update rules** page, select the rule in the list that you want to update. The *<rule_name>* page appears.
 2. Select the **Advanced** tab, and do the following in **Before evaluating conditions**:
 
-   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any records. A contact record is also created.
+   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any contact or account records.
 
         This option, in conjunction with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md).
 
@@ -115,13 +116,16 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
      - **Mapping in Power Automate manually:** Specify if you want to evaluate and set up the resolution for the contact in Power Automate.
         > [!IMPORTANT]
         > If you select to map the contact manually, make sure that you create a mapping in Power Automate for the customer field. More information: [Manually map a contact in Power Automate](#configure-in-power-automate)
-   - **Require a valid entitlement on the connected case:** If you select **Yes**, the Common Data Service platform creates a case only if an active entitlement exists for the customer.
+   - **Require a valid entitlement on the connected case:** If you select **Yes**, a case is created only if an active entitlement exists for the customer.
 
-        If the sender of the email is a contact with a parent account, the Common Data Service platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
+        If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
    - **Wait for a specific amount of time after the connected case has been resolved:** If you select **Yes**, select a time value in the **Select the amount of time** box that appears.
 
     If set to no, a case will be created even if a related case exists. When set to yes, no new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
+
+    > [!Note]
+    > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and do not select any time duration in the **Select the amount of time** box.
 
 3. In **Advanced settings**, by default the user who is creating the rule is listed in the **Owner whose permissions the rule uses to run** box. You can add more users or change the default value.
 4. Select **Save** or **Save & Close**.
@@ -199,7 +203,14 @@ Perform the following steps in Power Automate to manually map a contact:
 
 5. Save and close.
 
+### Troubleshoot cases
+
+[Issue converting an email to a case](troubleshoot-case-email-issue.md)
+
 ### See also
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

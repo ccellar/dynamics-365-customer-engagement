@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Create and edit virtual entities that contain data from an external data source
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and edit virtual entities that contain data from an external data source](/powerapps/maker/common-data-service/create-edit-virtual-entities)
 
 A virtual entity is a custom entity in Dynamics 365 Customer Engagement (on-premises) that has fields containing data from an external data source. Virtual entities appear in your app to users as regular entity records, but contain data that is sourced from an external database, such as an [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. Records based on virtual entities are available in all clients including custom clients developed using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
   
@@ -138,7 +138,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 - Virtual entities are organization owned and don't support the row-level Commond Data Service for Apps security concepts. We recommend that you implement your own security model for the external data source.  
   
-- We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between the Common Data Service native data and the virtual entity external data isn't supported.  
+- We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between the Dataverse native data and the virtual entity external data isn't supported.  
    
 - Field metadata properties that validate on update don’t apply to virtual entities. For example, a Whole Number field on a virtual entity field may be set to have a minimum value of zero. However, since the value is coming from an external data source, a query will return values less than zero when retrieved from a virtual entity.  The minimum value property is not implied in the query.  You would still need to filter the values to be greater than 0 if that’s what is desired.
 
@@ -149,3 +149,6 @@ You create fields for a Data Source in the same way as any other entity. For dat
 [OData v4 Data Provider requirements and best practices](virtual-entity-odata-provider-requirements.md)</br> 
 [Create and edit entities](../customize/create-edit-entities.md)</br>
 [Create and edit fields](../customize/create-edit-fields.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

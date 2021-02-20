@@ -1,13 +1,12 @@
 ---
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
-ms.date: 05/15/2018
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 05/15/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -64,3 +63,6 @@ You must expand a parameter to see the details, which illustrate the following:
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

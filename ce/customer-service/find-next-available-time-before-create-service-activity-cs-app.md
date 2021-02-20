@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -71,3 +70,6 @@ Avoid conflicts while scheduling services by finding the time the resources are 
 ### See also  
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)   
  [Navigate the service calendar](../customer-service/navigate-service-calendar-cs-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

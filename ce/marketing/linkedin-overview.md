@@ -1,18 +1,14 @@
 ---
-title: "Integrate LinkedIn marketing with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Get an overview of all the various ways that Dynamics 365 Marketing can be integrated with the marketing features of LinkedIn"
-keywords: LinkedIn; Lead Gen Forms; lead; connector
+title: "Integrate LinkedIn marketing with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Get an overview of all the various ways that Dynamics 365 Marketing can be integrated with the marketing features of LinkedIn."
 ms.date: 08/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 92120874-5901-41b1-a2fc-728fdc2dbe06
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -70,3 +66,6 @@ Dynamics 365 Marketing can schedule and post messages directly through any of yo
 For information for users about how to author and schedule posts on LinkedIn and other social-media sites, see [Schedule and post messages on social media](social-posting.md).
 
 For information for administrators about how to configure each of your organization's social media accounts for use with this feature, see [Configure your social media accounts](mkt-settings-social-media.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

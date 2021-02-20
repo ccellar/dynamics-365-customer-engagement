@@ -1,13 +1,12 @@
 ---
 title: "addHandler (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
-author: susikka
-ms.author: susikka
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 10/12/2018
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -32,3 +31,6 @@ applies_to:
 [onsendkbarticle](../events/onsendkbarticle.md)
 
 [onsizechanged](../events/onsizechanged.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

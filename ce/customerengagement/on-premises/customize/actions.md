@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Actions overview
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use actions](/powerapps/maker/common-data-service/actions)
 
 Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
   
@@ -60,3 +60,6 @@ Developers can learn more in this topic: [Create your own actions](../developer/
  [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md) <br />
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Business process flows overview](../customize/business-process-flows-overview.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

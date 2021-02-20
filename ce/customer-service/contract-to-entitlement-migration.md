@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 07/10/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -159,3 +158,6 @@ For business requirements, if a resolved case needs to be updated, perform the f
 
 [Important changes (deprecations) coming](/power-platform/important-changes-coming)  
 [SDK code samples in basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

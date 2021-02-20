@@ -1,15 +1,14 @@
 ---
 title: "Create a custom panel type | MicrosoftDocs"
 description: "Learn about creating a custom panel type."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -32,3 +31,6 @@ Creating a new panel type is considered an advanced topic, and only those intima
  [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)   
  [Move hosted controls between panels at runtime](../unified-service-desk/move-hosted-controls-between-panels-runtime.md)   
  [Create custom panel layout in Unified Service Desk](../unified-service-desk/create-custom-panel-layout.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: "Export members of dynamic segments to Excel (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to export the members of a dynamic segment to an Excel file from Dynamics 365 Marketing"
+title: "Export members of dynamic segments to Excel (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to export the members of a dynamic segment to an Excel file from Dynamics 365 Marketing."
 ms.date: 03/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,8 +9,6 @@ ms.topic: article
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -38,3 +36,5 @@ Export members from a dynamic segment straight to an Excel file, no matter how l
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Design behavioral segments](segments-interaction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

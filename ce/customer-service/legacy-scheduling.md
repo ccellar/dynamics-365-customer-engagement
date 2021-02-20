@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 05/08/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 # Service Scheduling features for legacy users
@@ -29,3 +24,6 @@ The following topics contain information about legacy Service Scheduling feature
  [Use sites to manage your service locations](../customer-service/use-sites-manage-service-locations.md)
  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

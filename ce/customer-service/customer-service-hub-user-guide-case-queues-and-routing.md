@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 11/27/2019
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -33,7 +32,7 @@ Customer Service Hub provides you with the ability to add a case to a queue, and
 
 4. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.  
 
-To know more about Queues, see [Work with Queues](customer-service-hub-user-guide-basics.md#work-with-queues).
+To know more about Queues, see [Work with Queues](work-with-queues.md).
 
 ## Save and route a case  
  To save a case record and route it to a queue in a single select, use the **Save & Route** button.  
@@ -54,3 +53,6 @@ To know more about Queues, see [Work with Queues](customer-service-hub-user-guid
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

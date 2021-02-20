@@ -6,12 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
+ms.service: dynamics-365-customerservice
 ---
 
 
@@ -105,3 +100,6 @@ In Connected Customer Service, you should now see incoming alerts from Azure IoT
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated](media/cs-iot-central-alerts-5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

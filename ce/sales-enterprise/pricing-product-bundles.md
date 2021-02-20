@@ -8,6 +8,13 @@ ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-product
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # How are prices calculated for product bundles?
@@ -47,3 +54,6 @@ Because the pricing-related fields for a product that's required for the bundle 
 ### See also
 
 [Set up product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

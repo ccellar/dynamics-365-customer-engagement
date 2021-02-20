@@ -5,21 +5,11 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 09/04/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-customerservice 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 87e2cafc-ead7-43b2-b62a-db3a2fc05380
-caps.latest.revision: 13
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -30,8 +20,12 @@ search.app:
 Booking rules in Field Service allow a system administrator to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, a booking rule could be created to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the skills required for the job.  
 
 Booking rules are custom JavaScript methods that will be executed prior to the bookable resource booking record being created or edited.  The JavaScript method can accept a parameter that will contain information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
-  
+ 
 Set up booking rules to validate a booking when it is created or modified.  
+ 
+> [!Note]
+> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> - Booking rules are not available on the reassign functionality on the schedule board.
 
 ## Create a solution
 
@@ -50,7 +44,7 @@ The following screenshot shows a newly created solution. We recommend that your 
 2. On the new web resource form, enter the following information:
   a. Name
   b. Display name
-  c. Select *Script (Jscript)* as the type
+  c. Select **Script (Jscript)** as the type
 3. Select the text editor option to enter your JavaScript code for the booking rule.
 4. Select **Save** to save your web resource.
 5. Select **Publish** to make sure the booking rule web resource has been published.
@@ -330,3 +324,6 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
  [Create and edit web resources](../customize/create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,14 @@
 ---
 title: "Glossary of common insights terms (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Provides definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 Marketing"
-keywords: insights;results;KPIs;analytics;glossary
+description: "Provides definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 Marketing."
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 9aade3aa-ff88-4d32-a3fd-8db3a4ad70ed
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -33,10 +29,10 @@ More information: [Analyze results to gain insights from your marketing activiti
 <dd>From time to time, a contact may get stopped in the middle of a customer journey for some reason, in which case they will wait at the tile where they were stopped until conditions change again (but typically they won't). There are three main reasons why a contact might get stopped at a tile during a journey: they unsubscribed from the mailing list targeted by the journey while it was running, they joined the journey's suppression segment while it was running, or the lowered their consent level to be below the minimum threshold set for the journey while it was running. Unsubscribes are counted together with suppression list changes.</dd>
 
 <dt><strong>Email block bounced</strong></dt>
-<dd>A block bounce is registered for emails messages that bounce for some reason other than a hard or soft bounce. This result is rare, and might indicated a remote bounce, which occurs when a server initially accepts an email, but then returns a bounce message sometime later. This might happen when the receiving email server is running local filtering rules that identify issues such as lack of sender authentication, flagged content, or because the sending IP is on a blacklist. These are otherwise treated as soft bounces.</dd>
+<dd>A block bounce is registered for emails messages that bounce for some reason other than a hard or soft bounce. This result is rare, and might indicated a remote bounce, which occurs when a server initially accepts an email, but then returns a bounce message sometime later. This might happen when the receiving email server is running local filtering rules that identify issues such as lack of sender authentication, flagged content, or because the sending IP is on a block list. These are otherwise treated as soft bounces.</dd>
 
 <dt><strong>Email blocked</strong></dt>
-<dd>The message was blocked due to rules established within Dynamics 365 Marketing, so no attempt to send it was made.  Blocking can occur when: a contact is marked as "Do not bulk email" and/or "Do not email"; the send list includes duplicate email addresses; you've used up your send quota for the month;  the message includes invalid, missing, or blacklisted addresses for the recipient, sender, and/or reply-to; other required fields are missing for the message. Examples of blacklisted addresses include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
+<dd>The message was blocked due to rules established within Dynamics 365 Marketing, so no attempt to send it was made.  Blocking can occur when: a contact is marked as "Do not bulk email" and/or "Do not email"; the send list includes duplicate email addresses; you've used up your send quota for the month;  the message includes invalid, missing, or block listed addresses for the recipient, sender, and/or reply-to; other required fields are missing for the message. Examples of block listed addresses include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
 
 <dt><strong><a name="email-click"></a>Email clicked</strong></dt>
 <dd>Each reported email click indicates that a contact clicked on a link sent to them in a marketing email. All links included in marketing emails are modified to redirect through Dynamics 365 Marketing and to include information about which message included the link and which contact it was sent to. So on each click, Dynamics 365 Marketing notes the click, the message that contains it, and the contact who clicked on it, and then forwards the contact on to the page originally specified by the message designer. Marketing can report both total clicks and unique clicks. Unique clicks count at most one click on each link by each recipient. Total clicks also count multiple clicks of the same link by any recipient, so total click values could sometimes be larger than the number of opens or deliveries for a given message.  The technique used to register clicks can sometimes produce misleading results when a message is forwarded&mdash;see <a href="#email-forwarded">Email forwarded</a> in this glossary for details.</dd>
@@ -89,10 +85,10 @@ More information: [Analyze results to gain insights from your marketing activiti
 <code>LinkCTR = (UniqueLinkClicks/TotalDelivered) * 100%</code></dd>
 
 <dt><strong>Page submitted</strong></dt>
-<dd>A page submission is recorded each time somebody submits a marketing page that includes a marketing form. This only includes pages hosted on a Dynamics 365 Portal, not submissions of marketing forms that are embedded on a page on an external site.</dd>
+<dd>A page submission is recorded each time somebody submits a marketing page that includes a marketing form. This only includes pages hosted on a Power Apps portal, not submissions of marketing forms that are embedded on a page on an external site.</dd>
 
 <dt><strong>Page visited</strong></dt>
-<dd>A page visit is recorded each time somebody visits a marketing page. This only includes pages hosted on a Dynamics 365 Portal, not pages on external sites that have a Dynamics 365 Marketing website tracking script.</dd>
+<dd>A page visit is recorded each time somebody visits a marketing page. This only includes pages hosted on a Power Apps portal, not pages on external sites that have a Dynamics 365 Marketing website tracking script.</dd>
 
 <dt><strong>Redirect URL clicked</strong></dt>
 <dd>Redirect URLs create links that connect to your Dynamics 365 Marketing server, which records the click, and then redirect immediately to some content that the requester is looking for. You can use them to track clicks from banners, ads, social media posts, and more. If a redirect URL is clicked by a known contact using a browser where a Dynamics 365 Marketing cookie has been set (as a result of submitting a landing page), then the click is linked to the relevant contact; otherwise the click is recorded as anonymous.</dd>
@@ -110,8 +106,10 @@ More information: [Analyze results to gain insights from your marketing activiti
 <dd>Web beacons are what makes it possible for Dynamics 365 Marketing to detect when a marketing email messages has been opened by a recipient. The beacon is a transparent, 1x1 pixel, remote image that Dynamics 365 Marketing embeds in each marketing email it sends. The image link is unique for each message, and includes not only the URL of the image to load, but also an ID that Dynamics 365 Marketing uses to identify the message and the contact it was sent to. The actual web-beacon image is stored on the Dynamics 365 Marketing server, so each time a contact opens a message and loads its images, Dynamics 365 Marketing logs which message was opened and by whom and then returns the image.</dd>
 
 <dt><strong>Website clicked</strong></dt>
-<dd>A website click is recorded each time somebody clicks a link on a page that includes a Dynamics 365 Marketing website tracking script. This includes both marketing pages hosted on a Dynamics 365 Portal and external pages that host a form or tracking script created with Dynamics 365 Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
+<dd>A website click is recorded each time somebody clicks a link on a page that includes a Dynamics 365 Marketing website tracking script. This includes both marketing pages hosted on a Power Apps portal and external pages that host a form or tracking script created with Dynamics 365 Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
 
 <dt><strong>Website visited</strong></dt>
-<dd>Dynamics 365 Marketing records a website visit each time somebody loads a page that includes a website tracking script created using Dynamics 365 Marketing. This includes both marketing pages hosted on a Dynamics 365 Portal and external pages that host a form or tracking script created with Dynamics 365 Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
+<dd>Dynamics 365 Marketing records a website visit each time somebody loads a page that includes a website tracking script created using Dynamics 365 Marketing. This includes both marketing pages hosted on a Power Apps portal and external pages that host a form or tracking script created with Dynamics 365 Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
 </dl>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

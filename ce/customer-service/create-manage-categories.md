@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -78,3 +77,6 @@ Follow the procedure given below to create a category:
 ### See also
 
 [Use the Category entity to categorize records](../developer/use-category-entity-categorize-dynamics-365-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

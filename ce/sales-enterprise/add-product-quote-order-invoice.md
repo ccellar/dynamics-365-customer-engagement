@@ -8,6 +8,18 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-Entity-quotedetail
+  - D365-Entity-salesorderdetail
+  - D365-Entity-invoicedetail
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Add products to quotes, orders, or invoices (Sales Hub)
@@ -71,3 +83,6 @@ Here are the actions you can take on the products in the Products grid:
  [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
  [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
  [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

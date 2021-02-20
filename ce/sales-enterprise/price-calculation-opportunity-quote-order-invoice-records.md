@@ -8,6 +8,19 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-opportunity
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-Entity-quoteproduct
+  - D365-Entity-salesorderproduct
+  - D365-Entity-invoiceproduct
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Price calculation for opportunity, quote, order, and invoice records
@@ -78,3 +91,6 @@ When a price list item is added as a product in opportunity, quote, order or in
 [Add products to an opportunity](add-products-opportunity.md)  
 [Add products to quotes, orders, or invoices](add-product-quote-order-invoice.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

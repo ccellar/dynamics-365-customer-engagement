@@ -1,19 +1,15 @@
 ---
-title: "Overview of Marketing settings in Dynamics 365 Marketing | Microsoft Docs"
-description: "Get an overview of marketing settings and find links to details about each page in the Marketing settings section of the advanced settings work area in Dynamics 365 Marketing"
-keywords: administration; landing page; marketing insights sync
+title: "Overview of Marketing settings in Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Get an overview of marketing settings and find links to details about each page in the Marketing settings section of the advanced settings work area in Dynamics 365 Marketing."
 ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -36,3 +32,6 @@ The **Marketing settings** section of the advanced settings work area contains p
 - **[Default marketing settings](mkt-settings-default-marketing.md)**: Set up collections of settings that establish various defaults used throughout the app, including for email marketing, customer journey timezone, double opt-in, and email deduplication during sending.
 - **[Social configuration](mkt-settings-social-media.md)**: Configure and authenticate each social media account where you'd like to author, schedule, and post updates using Dynamics 365 Marketing.
 - **[Data protection tools](mkt-settings-data-protection.md)**: Enable data-privacy features of Dynamics 365 Marketing. These currently focus on helping organizations comply with GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

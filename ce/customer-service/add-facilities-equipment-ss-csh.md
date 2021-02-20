@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -59,3 +58,6 @@ Make sure that you have the required security role or equivalent permissions.
 ### See also
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

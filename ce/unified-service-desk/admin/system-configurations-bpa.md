@@ -1,13 +1,12 @@
 ---
 title: "System configurations | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.date: 04/24/2018
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
-author: kabala123
-ms.author: kabala
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
+ms.date: 04/24/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -120,3 +119,6 @@ Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Control access to forms
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Set security roles for a form](/powerapps/maker/model-driven-apps/control-access-forms#set-security-roles-for-a-form)
 
  There are two ways you can control access to main forms:  
   
@@ -77,3 +77,6 @@ The Client API form context (formContext) provides a reference to the form or to
 
 ### See also  
 [Assign security roles to forms](../admin/assign-security-roles-form.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

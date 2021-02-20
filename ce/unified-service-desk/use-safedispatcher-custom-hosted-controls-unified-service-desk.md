@@ -1,15 +1,14 @@
 ---
 title: "Use SafeDispatcher for custom hosted controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use SafeDispatcher to provide out-of-box logging for unhandled exceptions with detailed information about the source and cause of the exception in Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -187,3 +186,6 @@ protected override void SafeDispatcherUnhandledExceptionHandler(object sender, S
  [Create custom Unified Service Desk hosted control](../unified-service-desk/walkthrough-create-custom-hosted-control-for-unified-service-desk.md)
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
  [Configure client diagnostic logging in Unified Service Desk](admin/configure-client-diagnostic-logging-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

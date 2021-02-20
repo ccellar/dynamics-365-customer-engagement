@@ -1,22 +1,15 @@
 ---
 title: Overview of Dynamics 365 Field Service
-description: A guide to managing resources with Dynamics 365 Field Service.
+description: Learn about Dynamics 365 Field Service and its features.
 author: FieldServiceDave
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.custom:
   - dyn365-fieldservice
-ms.date: 09/01/2020
-ms.topic: article
-ms.prod:
-ms.technology:
+ms.date: 10/23/2020
+ms.topic: overview
  - field-service
 ms.author: daclar
-audience: Admin
-search.audienceType:
-  - admin
-  - customizer
-  - enduser
 search.app:
   - D365CE
   - D365FS
@@ -24,11 +17,11 @@ search.app:
 
 # Overview of Dynamics 365 Field Service
 
-The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set mobile workers up for success when they're onsite with customers fixing issues.
+The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues.
 
 The Field Service application enables you to:
 
-- Improve first time fix rate
+- Improve first-time fix rate
 - Complete more service calls per technician per week
 - Manage follow-up work and take advantage of upsell and cross sell opportunities
 - Reduce travel time, mileage, and vehicle wear and tear
@@ -85,6 +78,22 @@ Field service capabilities include:
 
 - [Siemens](https://customers.microsoft.com/story/814362-siemens-manufacturing-dynamics-365-field-service)
 
+- [Oasen](https://customers.microsoft.com/story/oasen-nonprofit-azure-hololens-netherlands)
+
+- [Orangebox](https://customers.microsoft.com/story/754861-orangebox-manufacturing-dynamics-365)
+
+- [Posturite](https://customers.microsoft.com/story/759768-posturite)
+
+- [Lexmark](https://customers.microsoft.com/story/735150-lexmark-international-unitedstates-professional-services-microsoft365)
+
+- [Mashreq](https://customers.microsoft.com/story/mashreq-banking-surface-uk)
+
+- [ExxonMobile](https://customers.microsoft.com/story/exxonmobil-mining-oil-gas-azure)
+
+- [EcoLab](https://customers.microsoft.com/story/832498-ecolab-professional-services-dynamics-365)
+
+- [New York City Administration for Children’s Services (ACS)](https://customers.microsoft.com/story/new-york-city-acs-government-surface)
+
 ## Field Service roles
 
 The Field Service application provides tools for these key roles on your service team:
@@ -98,21 +107,24 @@ The Field Service application provides tools for these key roles on your service
 ## Using the Field Service application
 Work orders describe the work that a technician needs to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this:
 
-1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) telemetry and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required.
+1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required.
 
     Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling.
  > ![Screenshot of Active Work Orders](media/work-order-process-1.png)
 
 2. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization.
 
-    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Office 365 integration allows for emailing and skype calling to available resources.
+    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Microsoft 365 integration allows for emailing and skype calling to available resources.
 > ![Screenshot of schedule board](media/work-order-process-2.png) 
 
-1. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his or her device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
 
 
-    After performing the work, the technician can mark the work order as complete or as requiring a follow up; the dispatcher can then see this change on the schedule board.
-> ![Screenshot of mobile app](media/work-order-process-3.png)
+    After performing the work, the technician can mark the work order as complete or as requiring a follow-up; the dispatcher can then see this change on the schedule board.
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image of the Field Service (Dynamics 365) mobile app on a phone and a tablet.](./media/mobile-2020-tablet-website.png)
+
 
 4. As technicians submit completed work orders, equipment service history and inventory levels update automatically. This allows service managers to manage and track inventory needed, as well as track movement of parts from order to inventory to onsite installation.
 
@@ -120,7 +132,9 @@ Work orders describe the work that a technician needs to perform at a customer l
 > ![Screenshot of completed work order](media/work-order-process-4.png)
 
 ## Watch an overview video
-In this video, see how the interactive schedule board and other tools help a service team resolve a customer's issue.
 
- <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 Field Service")](https://go.microsoft.com/fwlink/p/?LinkId=786689)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,14 @@
 ---
 title: "Open the event management work area (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Explains how to access event-management features in Dynamics 365 Marketing"
+description: "Explains how to access event-management features in Dynamics 365 Marketing."
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: c8ebc0a9-8780-46ae-a1da-0eb868cb1d44
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -40,3 +37,5 @@ To find the event management work area:
     ![Open the work area menu](media/events-nav.png "Open the work area menu")
 
 For more information about how to get around in Dynamics 365 Marketing and work with its common features, see [Find your way around Marketing](navigation.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

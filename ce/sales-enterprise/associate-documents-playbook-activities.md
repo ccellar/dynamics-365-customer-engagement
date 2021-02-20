@@ -10,6 +10,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_playbookinstance
+  - D365-Entity-msdyn_playbookactivity
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Associate documents with playbook activities
@@ -46,3 +54,6 @@ So that you can add documents, make sure that document management for the playbo
 ### See also
 [Manage playbook templates](manage-playbook-templates.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,23 +1,21 @@
 ---
 title: Schedule a service activity | Microsoft Docs
-description: How to schedule a service activity in the UCI-based Scheduling Service for Dynamics 365 Customer Service.
+description: How to schedule a service activity in the Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: 
-  dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  dyn365-customerservice
+  - dyn365-customerservice
 search.audienceType: 
-  admin
-  customizer
-  enduser
+  - admin
+  - customizer
+  - enduser
 search.app: 
-  D365CE
-  D365CS
-  
+  - D365CE
+  - D365CS
 ---
 
 # Use the Service Schedule Activity form to schedule a service activity
@@ -64,21 +62,14 @@ Before beginning to create a service activity, make sure you have the Scheduler 
 8. When you’re ready to save your data, select **Save**. 
 
    The service activity appears as a color block on the Service calendar. 
-   
+
 ### See also  
 
-[UCI-based service scheduling overview](uci-scheduling-overview.md)
+[Unified Interface-based service scheduling overview](uci-scheduling-overview.md)  
+[Create or edit a service](uci-create-edit-service.md)  
+[Add facilities and equipment](uci-add-facilities-equipment.md)  
+[Create resource groups](uci-create-resource-groups.md)  
+[Use sites to manage your service locations](uci-create-sites.md)  
+[Navigate the service calendar](uci-navigate-service-calendar.md)  
 
-[Create or edit a service](uci-create-edit-service.md)
-
-[Add facilities and equipment](uci-add-facilities-equipment.md)
-
-[Create resource groups](uci-create-resource-groups.md)
-
-[Use sites to manage your service locations](uci-create-sites.md)
-
-[Navigate the service calendar](uci-navigate-service-calendar.md)
-
- 
-
- 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

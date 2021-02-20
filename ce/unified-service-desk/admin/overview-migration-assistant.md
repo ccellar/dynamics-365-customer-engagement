@@ -1,16 +1,15 @@
 ---
 title: "Migrate Web Client configurations to Unified Interface apps | MicrosoftDocs"
 description: "Learn how to migrate your Unified Service Desk configurations from Web Client to Unified Interface apps"
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 07/30/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 07/30/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -52,3 +51,6 @@ The migration assistant helps with the migration of:
 [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
 [Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

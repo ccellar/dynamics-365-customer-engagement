@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Display custom icons in list views
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Display custom icons alongside values in list views](/powerapps/maker/common-data-service/display-custom-icons-instead)
 
 <a name="GridIcons"></a>   
 
@@ -157,3 +157,6 @@ function displayIconTooltip(rowData, userLCID) {
  
  ### See also
  [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

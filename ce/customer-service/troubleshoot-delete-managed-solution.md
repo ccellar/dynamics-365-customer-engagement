@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 08/07/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -22,7 +21,7 @@ search.app:
 
 ## Issue
 
-Unable to delete a managed solution that contains an entity with a service level agreement (SLA) enabled on it. This entity has been created as part of a previously imported solution.
+Unable to delete a managed solution that contains an entity with a service-level agreement (SLA) enabled on it. This entity has been created as part of a previously imported solution.
 
 ## Summary
 
@@ -63,3 +62,6 @@ To delete a managed solution with an SLA-enabled entity, you need to first delet
 [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
 
 [Entities in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-case-management-record-types-dashboards-and-tools)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

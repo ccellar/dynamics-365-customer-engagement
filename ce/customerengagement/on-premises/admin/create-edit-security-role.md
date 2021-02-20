@@ -116,7 +116,7 @@ You can create new security roles to accommodate changes in your business requir
  
  We've created a solution you can import that provides a security role with the required minimum privileges.
 
-Start by downloading the solution from the Download Center: [Common Data Service minimum privilege security role](https://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
+Start by downloading the solution from the Download Center: [Dataverse minimum privilege security role](https://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
 
 Then, follow the directions to import the solution: [Import, update, and export solutions](../customize/import-update-upgrade-solution.md).
 
@@ -157,3 +157,6 @@ When you import the solution, it creates the **min prv apps use** role which you
  [Security concepts for Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Copy a security role](../admin/copy-security-role.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,6 +10,16 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-campaignactivity
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
+
 ---
 
 # Add an activity to a campaign using in-app marketing (Sales)
@@ -87,3 +97,6 @@ Make your marketing campaigns successful by creating, distributing, and assignin
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

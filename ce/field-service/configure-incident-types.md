@@ -1,23 +1,15 @@
 ---
 title: "Configure incident types in Dynamics 365 Field Service | Microsoft Docs"
+description: Learn about configuring incident types in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/01/2020
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: debef702-a12a-491c-8087-e7e4bdb14b19
-caps.latest.revision: 16
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -410,3 +402,6 @@ Only one work order incident can be the primary incident and this is either the 
 - [Add account details to work orders](../field-service/work-order-customer-account.md)   
 - [Work order life cycle and statuses](../field-service/work-order-status-booking-status.md)  
 - [Set up service task types](../field-service/set-up-service-task-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

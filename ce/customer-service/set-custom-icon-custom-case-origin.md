@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -67,3 +66,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
 ### See also  
  [Create and edit global option sets](../customerengagement/on-premises/customize/create-edit-global-option-sets.md)   
  [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

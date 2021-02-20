@@ -52,7 +52,7 @@ applicable provisions of the Microsoft Privacy Statement.
 subprocessor of personal data in connection with the software, Microsoft makes
 the commitments in the European Union General Data Protection Regulation Terms
 of the Online Services Terms to all customers effective May 25, 2018, at
-<https://docs.microsoft.com/en-us/legal/gdpr>.
+<https://go.microsoft.com/fwlink/?linkid=2147654>.
 
 **3. SCOPE OF LICENSE.** The software is licensed, not sold. Microsoft reserves
 all other rights. Unless applicable law gives you more rights despite this
@@ -208,3 +208,5 @@ ci-dessus ne s’appliquera pas à votre égard.**
 pourriez avoir d’autres droits prévus par les lois de votre pays. Le présent
 contrat ne modifie pas les droits que vous confèrent les lois de votre pays si
 celles-ci ne le permettent pas.**
+
+

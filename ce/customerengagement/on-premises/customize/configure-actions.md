@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Configure custom actions from a workflow
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure custom actions from a workflow](/powerapps/maker/common-data-service/configure-actions)
 
 You can enable a custom action from a workflow without writing code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md).  
   
@@ -144,3 +144,6 @@ Actions also have something that workflow processes don’t – input and output
  [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
  [Create your own actions](../developer/create-own-actions.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

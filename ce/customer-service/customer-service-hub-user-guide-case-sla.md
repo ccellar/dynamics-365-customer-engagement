@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 08/24/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -95,3 +94,6 @@ To know more about how to create SLAs, see [Define Service Level Agreements (SLA
 
 [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

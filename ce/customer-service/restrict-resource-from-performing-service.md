@@ -6,8 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -71,3 +70,6 @@ You can restrict a resource from performing a service and define the service cap
 [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

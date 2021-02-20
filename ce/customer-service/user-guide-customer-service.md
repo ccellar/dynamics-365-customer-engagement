@@ -6,8 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 04/24/2020
 ms.topic: get-started-article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -438,6 +437,8 @@ If you want another person in your organization to work on an activity, you can 
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
+
+
 ## Merge similar cases
 
 Eliminate redundancies between similar cases in Dynamics 365 Customer Service by merging them into one case. When a customer opens multiple cases about the same issue (through different support channels), or when multiple customers from the same account call in about the same issue, you can merge those cases into one case so everything’s visible in one place.  
@@ -579,3 +580,6 @@ You can manage multiple cases more efficiently if you use parent and child cases
 [Set up OneNote integration (for admins)](../admin/set-up-onenote-integration-in-dynamics-365.md) 
   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

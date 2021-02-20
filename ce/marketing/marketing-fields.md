@@ -1,18 +1,14 @@
 ---
 title: "Set up input fields to be used in marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up a form input field and map it to a database field in Dynamics 365 Marketing"
-keywords: marketing form, fields
+description: "How to set up a form input field and map it to a database field in Dynamics 365 Marketing."
 ms.date: 08/25/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: ff9c1046-2823-460a-ad3b-946ada3a4244
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -132,3 +128,6 @@ For a new custom entity, you will need to enable the proper Security Role permis
 [Design your digital content](design-digital-content.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

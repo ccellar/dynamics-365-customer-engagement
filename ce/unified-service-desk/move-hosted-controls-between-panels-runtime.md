@@ -1,15 +1,14 @@
 ---
 title: "Move hosted controls between panels at runtime in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
 description: "Learn about moving hosted controls between panels at runtime Unified Service Desk."
+author: v-sailab
+ms.author: v-sailab
+manager: shujoshi
+ms.date: 08/23/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
-manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -40,3 +39,6 @@ if (desktop != null)
  [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)   
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)   
  [CRM Page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
